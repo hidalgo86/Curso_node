@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  div.container
+    h1.title Gracias por enviar tu archivo #{datos.username}
+    figure.image.is-128x128
+      img.is-square(src="/images/optimizadas/" + files.filename )
+  

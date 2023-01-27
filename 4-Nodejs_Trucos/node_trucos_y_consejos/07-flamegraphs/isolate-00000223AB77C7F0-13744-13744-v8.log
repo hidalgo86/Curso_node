@@ -1,0 +1,849 @@
+v8-version,7,5,288,22,-node.14,0
+shared-library,C:\\Program Files\\nodejs\\node.exe,0x7ff6c3c70000,0x7ff6c57f8000,0
+shared-library,C:\\WINDOWS\\SYSTEM32\\ntdll.dll,0x7ffc50070000,0x7ffc5025d000,0
+shared-library,C:\\WINDOWS\\System32\\KERNEL32.DLL,0x7ffc4fb50000,0x7ffc4fc03000,0
+shared-library,C:\\WINDOWS\\System32\\KERNELBASE.dll,0x7ffc4d000000,0x7ffc4d293000,0
+shared-library,C:\\WINDOWS\\System32\\WS2_32.dll,0x7ffc4de90000,0x7ffc4defd000,0
+shared-library,C:\\WINDOWS\\System32\\RPCRT4.dll,0x7ffc4ff10000,0x7ffc50032000,0
+shared-library,C:\\WINDOWS\\SYSTEM32\\dbghelp.dll,0x7ffc3b110000,0x7ffc3b2fd000,0
+shared-library,C:\\WINDOWS\\System32\\ucrtbase.dll,0x7ffc4c3f0000,0x7ffc4c4ea000,0
+shared-library,C:\\WINDOWS\\System32\\ADVAPI32.dll,0x7ffc4f720000,0x7ffc4f7c3000,0
+shared-library,C:\\WINDOWS\\System32\\msvcrt.dll,0x7ffc4d830000,0x7ffc4d8ce000,0
+shared-library,C:\\WINDOWS\\System32\\sechost.dll,0x7ffc4d8d0000,0x7ffc4d96e000,0
+shared-library,C:\\WINDOWS\\System32\\USER32.dll,0x7ffc4f7d0000,0x7ffc4f967000,0
+shared-library,C:\\WINDOWS\\System32\\win32u.dll,0x7ffc4cfc0000,0x7ffc4cfe0000,0
+shared-library,C:\\WINDOWS\\System32\\GDI32.dll,0x7ffc4d9e0000,0x7ffc4da09000,0
+shared-library,C:\\WINDOWS\\System32\\gdi32full.dll,0x7ffc4ce20000,0x7ffc4cfb9000,0
+shared-library,C:\\WINDOWS\\System32\\msvcp_win.dll,0x7ffc4c140000,0x7ffc4c1e0000,0
+shared-library,C:\\WINDOWS\\System32\\PSAPI.DLL,0x7ffc4e1c0000,0x7ffc4e1c8000,0
+shared-library,C:\\WINDOWS\\System32\\CRYPT32.dll,0x7ffc4cc40000,0x7ffc4ce1b000,0
+shared-library,C:\\WINDOWS\\System32\\MSASN1.dll,0x7ffc4c120000,0x7ffc4c132000,0
+shared-library,C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL,0x7ffc4b640000,0x7ffc4b67d000,0
+shared-library,C:\\WINDOWS\\SYSTEM32\\USERENV.dll,0x7ffc4bfa0000,0x7ffc4bfc8000,0
+shared-library,C:\\WINDOWS\\System32\\bcrypt.dll,0x7ffc4c1e0000,0x7ffc4c206000,0
+shared-library,C:\\WINDOWS\\System32\\profapi.dll,0x7ffc4c070000,0x7ffc4c094000,0
+shared-library,C:\\WINDOWS\\SYSTEM32\\WINMM.dll,0x7ffc477f0000,0x7ffc47814000,0
+shared-library,C:\\WINDOWS\\SYSTEM32\\winmmbase.dll,0x7ffc477c0000,0x7ffc477ed000,0
+shared-library,C:\\WINDOWS\\System32\\cfgmgr32.dll,0x7ffc4c340000,0x7ffc4c38a000,0
+shared-library,C:\\WINDOWS\\System32\\IMM32.DLL,0x7ffc4df00000,0x7ffc4df2e000,0
+shared-library,C:\\WINDOWS\\System32\\powrprof.dll,0x7ffc4c0c0000,0x7ffc4c11d000,0
+shared-library,C:\\WINDOWS\\system32\\uxtheme.dll,0x7ffc4a470000,0x7ffc4a50c000,0
+shared-library,C:\\WINDOWS\\System32\\combase.dll,0x7ffc4d3d0000,0x7ffc4d6fc000,0
+shared-library,C:\\WINDOWS\\System32\\bcryptPrimitives.dll,0x7ffc4c210000,0x7ffc4c28e000,0
+shared-library,C:\\WINDOWS\\system32\\mswsock.dll,0x7ffc4b8e0000,0x7ffc4b947000,0
+shared-library,C:\\WINDOWS\\System32\\kernel.appcore.dll,0x7ffc4c0a0000,0x7ffc4c0b1000,0
+tick,0x7ffc5010f7e4,183159,0,0x0,6
+profiler,begin,1000
+tick,0x7ff6c439f219,185219,0,0x0,5
+code-creation,Eval,10,186254,0xe862e6ae46,6, internal/bootstrap/loaders.js:1:1,0xe862e6ad78,~
+code-creation,Eval,10,186364,0xe862e6b576,510, internal/bootstrap/loaders.js:1:1,0xe862e6adb0,~
+code-creation,LazyCompile,10,186675,0xe862e6bd8e,19,SafeSet internal/per_context/primordials.js:72:3,0x46d8b84fb0,~
+code-creation,LazyCompile,10,186821,0xe862e6bfe6,77,internalBinding internal/bootstrap/loaders.js:128:45,0xe862e6b030,~
+code-creation,LazyCompile,10,187018,0xe862e6c6d6,68,NativeModule internal/bootstrap/loaders.js:149:22,0xe862e6ae78,~
+tick,0x7ff6c42f446c,187267,0,0x0,0,0x7ff6c46458c8,0xe862e6b70e
+code-creation,Eval,10,187662,0xe862e76056,6, internal/bootstrap/node.js:1:1,0xe862e75f88,~
+code-creation,Eval,10,187822,0xe862e76b26,2407, internal/bootstrap/node.js:1:1,0xe862e75fc0,~
+code-creation,LazyCompile,10,187964,0xe862e7889e,103,setupPrepareStackTrace internal/bootstrap/node.js:302:32,0xe862e76088,~
+code-creation,LazyCompile,10,188043,0xe862e78fb6,49,nativeModuleRequire internal/bootstrap/loaders.js:183:29,0xe862e6aed0,~
+code-creation,LazyCompile,10,188111,0xe862e79216,178,NativeModule.compile internal/bootstrap/loaders.js:287:42,0xe862e6b298,~
+code-creation,Eval,10,188999,0xe862e7fa5e,6, internal/errors.js:1:1,0xe862e7f990,~
+tick,0x7ff6c402c235,189253,1,0x7ff6c3dc2f70,3,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0xe862e788ca,0xe862e76b7d
+code-creation,Eval,10,189357,0x11d41a0225e,5639, internal/errors.js:1:1,0xe862e7f9c8,~
+code-creation,LazyCompile,10,189829,0x11d41a0779e,156,E internal/errors.js:276:11,0xe862e7fd80,~
+code-creation,LazyCompile,10,189884,0x11d41a07bf6,57,makeNodeErrorWithCode internal/errors.js:190:31,0xe862e7fc18,~
+code-creation,LazyCompile,10,190105,0x11d41a08366,36, internal/errors.js:287:26,0x11d41a076b0,~
+code-creation,LazyCompile,10,190387,0x11d41a08fd6,44,makeSystemErrorWithCode internal/errors.js:182:33,0xe862e7fb98,~
+code-creation,Eval,10,190846,0x11d41a0a32e,6, internal/util.js:1:1,0x11d41a0a260,~
+code-creation,Eval,10,190908,0x11d41a0af4e,674, internal/util.js:1:1,0x11d41a0a298,~
+tick,0x7ff6c41bbaa0,191243,1,0x7ff6c3e207d0,5,0x7ff6c457e1f0,0xe862e6c004,0x11d41a0b06d,0xe862e7927b,0xe862e78fe2,0xe862e76bb5
+code-creation,LazyCompile,10,191992,0x11d41a1245e,156,setupProcessObject internal/bootstrap/node.js:321:28,0xe862e760e0,~
+code-creation,Eval,10,192360,0x11d41a1307e,6, events.js:1:1,0x11d41a12fb0,~
+code-creation,Eval,10,192421,0x11d41a13d6e,685, events.js:1:1,0x11d41a12fe8,~
+tick,0x7ff6c42d23f7,193224,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x11d41a13e49,0xe862e7927b,0xe862e78fe2,0x11d41a12467,0xe862e76bca
+code-creation,Eval,10,193704,0x11d41a26c16,6, internal/util/inspect.js:1:1,0x11d41a26b48,~
+code-creation,Eval,10,193810,0x11d41a2878e,1516, internal/util/inspect.js:1:1,0x11d41a26b80,~
+code-creation,Eval,10,194030,0x11d41a29e46,6, internal/util/types.js:1:1,0x11d41a29d78,~
+code-creation,Eval,10,194073,0x11d41a2a426,289, internal/util/types.js:1:1,0x11d41a29db0,~
+code-creation,LazyCompile,10,194153,0x11d41a2aa16,15,uncurryThis internal/per_context/primordials.js:22:21,0x46d8b84b08,~
+code-creation,Eval,10,194287,0x11d41a2ad06,6, internal/assert.js:1:1,0x11d41a2ac38,~
+code-creation,Eval,10,194312,0x11d41a2aec6,48, internal/assert.js:1:1,0x11d41a2ac70,~
+code-creation,LazyCompile,10,194471,0x11d41a2b106,19, internal/util/inspect.js:97:45,0x11d41a27c40,~
+code-creation,RegExp,4,194610,0xb81b042040,1272,^([A-Z][a-z]+)+$
+code-creation,LazyCompile,10,194829,0x11d41a2bc5e,24,EventEmitter events.js:42:22,0x11d41a130b0,~
+code-creation,LazyCompile,10,194876,0x11d41a2bdf6,86,EventEmitter.init events.js:82:29,0x11d41a135d8,~
+code-creation,LazyCompile,10,194963,0x11d41a2c3ae,156,setupGlobalProxy internal/bootstrap/node.js:366:26,0xe862e761b8,~
+code-creation,LazyCompile,10,195020,0x11d41a2c90e,42,makeGetter internal/bootstrap/node.js:374:22,0x11d41a2c0f8,~
+code-creation,LazyCompile,10,195097,0x11d41a2cb8e,146,deprecate internal/util.js:43:19,0x11d41a0a410,~
+code-creation,LazyCompile,10,195158,0x11d41a2cf3e,53,makeSetter internal/bootstrap/node.js:380:22,0x11d41a2c158,~
+tick,0x7ffc5007de5a,195272,0,0x0,0,0x7ff6c4401210,0x11d41a2c41a,0xe862e76bcd
+code-creation,LazyCompile,10,195349,0x11d41a2d636,109,setupBuffer internal/bootstrap/node.js:405:21,0xe862e76288,~
+code-creation,Eval,10,195994,0x11d41a2e78e,6, buffer.js:1:1,0x11d41a2e6c0,~
+code-creation,Eval,10,196112,0x11d41a30116,1783, buffer.js:1:1,0x11d41a2e6f8,~
+code-creation,Eval,10,196361,0x11d41a31d7e,6, internal/validators.js:1:1,0x11d41a31cb0,~
+code-creation,Eval,10,196406,0x11d41a32356,321, internal/validators.js:1:1,0x11d41a31ce8,~
+code-creation,LazyCompile,10,196484,0x11d41a32966,15,hideStackFrames internal/errors.js:232:25,0xe862e7fca8,~
+code-creation,Eval,10,197137,0x11d41a33c4e,6, internal/buffer.js:1:1,0x11d41a33b80,~
+tick,0x7ff6c44a3e58,197239,1,0x7ff6c3dc2f70,3,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x11d41a303be,0xe862e7927b,0xe862e78fe2,0x11d41a2d63f,0xe862e76bd0
+code-creation,Eval,10,197279,0x11d41a359d6,859, internal/buffer.js:1:1,0x11d41a33bb8,~
+code-creation,LazyCompile,10,197615,0x11d41a36c4e,467,addBufferPrototypeMethods internal/buffer.js:942:35,0x11d41a35540,~
+code-creation,LazyCompile,10,197747,0x11d41a37526,62,createPool buffer.js:121:20,0x11d41a2e818,~
+code-creation,LazyCompile,10,197788,0x11d41a376ee,82,createUnsafeBuffer buffer.js:112:28,0x11d41a2e7c0,~
+code-creation,LazyCompile,10,197848,0x11d41a3787e,19,FastBuffer internal/buffer.js:940:1,0x11d41a35598,~
+code-creation,Eval,10,198250,0x11d41a39296,6, internal/process/per_thread.js:1:1,0x11d41a391c8,~
+code-creation,Eval,10,198291,0x11d41a39686,315, internal/process/per_thread.js:1:1,0x11d41a39200,~
+code-creation,Eval,10,198500,0x11d41a3a04e,6, internal/process/main_thread_only.js:1:1,0x11d41a39f80,~
+code-creation,Eval,10,198537,0x11d41a3a3f6,221, internal/process/main_thread_only.js:1:1,0x11d41a39fb8,~
+code-creation,LazyCompile,10,198825,0x11d41a3cbe6,62,wrapProcessMethods internal/process/main_thread_only.js:22:28,0x11d41a3a080,~
+code-creation,LazyCompile,10,198959,0x11d41a3d2e6,284,wrapProcessMethods internal/process/per_thread.js:33:28,0x11d41a39320,~
+code-creation,Eval,10,199162,0x11d41a3dbf6,6, internal/process/stdio.js:1:1,0x11d41a3db28,~
+tick,0x7ffc5010f864,199236,1,0x7ff6c3dc2f70,3,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0xe862e76f16
+code-creation,Eval,10,199260,0x11d41a3de4e,76, internal/process/stdio.js:1:1,0x11d41a3db60,~
+code-creation,LazyCompile,10,199366,0x11d41a3e2a6,65,getMainThreadStdio internal/process/stdio.js:21:28,0x11d41a3dc80,~
+code-creation,LazyCompile,10,199442,0x11d41a3e736,126,setupProcessStdio internal/bootstrap/node.js:341:27,0xe862e76138,~
+code-creation,Eval,10,199770,0x11d41a3f996,6, internal/async_hooks.js:1:1,0x11d41a3f8c8,~
+code-creation,Eval,10,199863,0x3766c2c0c76,1015, internal/async_hooks.js:1:1,0x11d41a3f900,~
+code-creation,LazyCompile,10,200166,0x3766c2c3226,69,emitHookFactory internal/async_hooks.js:182:25,0x11d41a3fb28,~
+code-creation,LazyCompile,10,200205,0x3766c2c33f6,34, internal/per_context/primordials.js:23:10,0x46d8b84d10,~
+code-creation,Eval,10,200503,0x3766c2c3de6,6, internal/process/task_queues.js:1:1,0x3766c2c3d18,~
+code-creation,Eval,10,200557,0x3766c2c43ce,509, internal/process/task_queues.js:1:1,0x3766c2c3d50,~
+code-creation,Eval,10,200790,0x3766c2c5256,6, internal/process/promises.js:1:1,0x3766c2c5188,~
+code-creation,Eval,10,200833,0x3766c2c58be,365, internal/process/promises.js:1:1,0x3766c2c51c0,~
+code-creation,Eval,10,200999,0x3766c2c61a6,6, internal/fixed_queue.js:1:1,0x3766c2c60d8,~
+code-creation,Eval,10,201034,0x3766c2c65de,134, internal/fixed_queue.js:1:1,0x3766c2c6110,~
+code-creation,LazyCompile,10,201119,0x3766c2c68ce,26,FixedQueue internal/fixed_queue.js:87:14,0x3766c2c6390,~
+code-creation,LazyCompile,10,201161,0x3766c2c6a96,40,FixedCircularBuffer internal/fixed_queue.js:56:14,0x3766c2c61d8,~
+tick,0x7ffc5010f864,201237,0,0x0,3,0x7ff6c421fe80,0x3766c2c68d5,0x3766c2c4581,0xe862e7927b,0xe862e78fe2,0xe862e76fc6
+code-creation,LazyCompile,10,201330,0x3766c2c6e26,101,createGlobalConsole internal/bootstrap/node.js:422:29,0xe862e762e0,~
+code-creation,Eval,10,201418,0x3766c2c7276,6, internal/console/global.js:1:1,0x3766c2c71a8,~
+code-creation,Eval,10,201468,0x3766c2c73c6,387, internal/console/global.js:1:1,0x3766c2c71e0,~
+code-creation,Eval,10,201950,0x3766c2c8516,6, internal/console/constructor.js:1:1,0x3766c2c8448,~
+code-creation,Eval,10,202049,0x3766c2c94be,1498, internal/console/constructor.js:1:1,0x3766c2c8480,~
+code-creation,LazyCompile,10,202432,0x3766c2cb646,106,Console.<computed> internal/console/constructor.js:141:47,0x3766c2c8758,~
+code-creation,LazyCompile,10,202535,0x3766c2cbc1e,346,Console.<computed> internal/console/constructor.js:166:46,0x3766c2c87e8,~
+code-creation,LazyCompile,10,202594,0x3766c2cc236,19,createWriteErrorHandler internal/console/constructor.js:190:33,0x3766c2c85a0,~
+code-creation,Eval,10,202751,0x3766c2cc64e,6, internal/util/inspector.js:1:1,0x3766c2cc580,~
+code-creation,Eval,10,202784,0x3766c2cc9ae,125, internal/util/inspector.js:1:1,0x3766c2cc5b8,~
+code-creation,LazyCompile,10,202870,0x3766c2ccce6,11,set consoleFromVM internal/util/inspector.js:63:20,0x3766c2cc830,~
+code-creation,LazyCompile,10,202935,0x3766c2cce76,275,wrapConsole internal/util/inspector.js:37:21,0x3766c2cc730,~
+code-creation,LazyCompile,10,203134,0x3766c2ce3f6,38,exposeNamespace internal/bootstrap/node.js:440:25,0xe862e76338,~
+tick,0x7ff6c46dcab5,203235,0,0x0,0,0xe862e78fbb,0xe862e77031
+code-creation,Eval,10,204084,0x3766c2cfeae,6, internal/url.js:1:1,0x3766c2cfde0,~
+code-creation,Eval,10,204229,0x3766c2d2746,2299, internal/url.js:1:1,0x3766c2cfe18,~
+code-creation,Eval,10,204486,0x3766c2d47f6,6, internal/querystring.js:1:1,0x3766c2d4728,~
+code-creation,Eval,10,204529,0x3766c2d49be,188, internal/querystring.js:1:1,0x3766c2d4760,~
+code-creation,Eval,10,204765,0x3766c2d5506,6, internal/constants.js:1:1,0x3766c2d5438,~
+code-creation,Eval,10,204793,0x3766c2d585e,45, internal/constants.js:1:1,0x3766c2d5470,~
+tick,0x7ff6c4b18443,205245,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3766c2d29ee,0xe862e7927b,0xe862e78fe2,0xe862e77031
+code-creation,Eval,10,205590,0x3766c2d6286,6, path.js:1:1,0x3766c2d61b8,~
+code-creation,Eval,10,205649,0x3766c2d6fa6,542, path.js:1:1,0x3766c2d61f0,~
+code-creation,LazyCompile,10,206125,0x3766c2d88be,490,defineIDLClass internal/url.js:847:24,0x3766c2d0408,~
+code-creation,LazyCompile,10,206300,0x3766c2d910e,38,exposeInterface internal/bootstrap/node.js:450:25,0xe862e76390,~
+code-creation,Eval,10,206708,0x3766c2db186,6, internal/encoding.js:1:1,0x3766c2db0b8,~
+code-creation,Eval,10,206815,0x3766c2dd03e,789, internal/encoding.js:1:1,0x3766c2db0f0,~
+tick,0x7ff6c45a3fca,207237,0,0x0,3,0x7ff6c424f050,0x3766c2dd268,0xe862e7927b,0xe862e78fe2,0xe862e77092
+code-creation,LazyCompile,10,207258,0x3766c2e17b6,87,makeTextDecoderICU internal/encoding.js:350:28,0x3766c2db3c8,~
+code-creation,Eval,10,207565,0x3766c2e24ee,6, timers.js:1:1,0x3766c2e2420,~
+code-creation,Eval,10,207629,0x3766c2e2dae,645, timers.js:1:1,0x3766c2e2458,~
+code-creation,Eval,10,207781,0x3766c2e3df6,6, internal/linkedlist.js:1:1,0x3766c2e3d28,~
+code-creation,Eval,10,207810,0x3766c2e4106,80, internal/linkedlist.js:1:1,0x3766c2e3d60,~
+code-creation,Eval,10,208174,0x3766c2e4afe,6, internal/timers.js:1:1,0x3766c2e4a30,~
+code-creation,Eval,10,208246,0x3766c2e57b6,905, internal/timers.js:1:1,0x3766c2e4a68,~
+code-creation,Eval,10,208441,0x3766c2e677e,6, internal/priority_queue.js:1:1,0x3766c2e66b0,~
+code-creation,Eval,10,208476,0x3766c2e6bbe,164, internal/priority_queue.js:1:1,0x3766c2e66e8,~
+code-creation,Eval,10,208613,0x3766c2e71de,6, internal/util/debuglog.js:1:1,0x3766c2e7110,~
+code-creation,Eval,10,208643,0x3766c2e74b6,103, internal/util/debuglog.js:1:1,0x3766c2e7148,~
+code-creation,LazyCompile,10,208725,0x3766c2e78a6,21,debuglog internal/util/debuglog.js:55:18,0x3766c2e7348,~
+code-creation,LazyCompile,10,208786,0x3766c2e7a16,13,ImmediateList internal/timers.js:242:23,0x3766c2e4c38,~
+code-creation,LazyCompile,10,208848,0x3766c2e7bd6,72,PriorityQueue internal/priority_queue.js:15:14,0x3766c2e67b0,~
+code-creation,LazyCompile,10,209064,0x3766c2e84de,38,defineOperation internal/bootstrap/node.js:460:25,0xe862e763e8,~
+tick,0x7ff6c430d26c,209178,0,0x0,0,0x7ff6c4401210,0xe862e7727a
+code-creation,Eval,10,209356,0x3766c2e8cc6,6, internal/process/execution.js:1:1,0x3766c2e8bf8,~
+code-creation,Eval,10,209402,0x3766c2e91ce,336, internal/process/execution.js:1:1,0x3766c2e8c30,~
+code-creation,LazyCompile,10,209549,0x3766c2e9886,6,createOnGlobalUncaughtException internal/process/execution.js:122:41,0x3766c2e8f08,~
+code-creation,Eval,10,209708,0x3766c2e9cce,6, internal/process/warning.js:1:1,0x3766c2e9c00,~
+code-creation,Eval,10,209742,0x3766c2ea00e,138, internal/process/warning.js:1:1,0x3766c2e9c38,~
+code-creation,LazyCompile,10,209837,0x3766c2ea346,45,setupTaskQueue internal/process/task_queues.js:170:17,0x3766c2c4130,~
+code-creation,LazyCompile,10,209880,0x3766c2ea4e6,17,listenForRejections internal/process/promises.js:245:29,0x3766c2c56a8,~
+code-creation,LazyCompile,10,209943,0x3766c2ea7c6,65,getTimerCallbacks internal/timers.js:390:27,0x3766c2e4fa8,~
+code-creation,Eval,10,210934,0x3766c2eb05e,6, internal/main/run_main_module.js:1:1,0x3766c2eaf90,~
+code-creation,Eval,10,210962,0x3766c2eb106,58, internal/main/run_main_module.js:1:1,0x3766c2eafc8,~
+tick,0x7ffc5007fdb1,211255,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3766c2eb10b
+code-creation,Eval,10,211319,0x3766c2ebbfe,6, internal/bootstrap/pre_execution.js:1:1,0x3766c2ebb30,~
+code-creation,Eval,10,211398,0x3766c2ec606,325, internal/bootstrap/pre_execution.js:1:1,0x3766c2ebb68,~
+code-creation,Eval,10,211533,0x3766c2ecd7e,6, internal/options.js:1:1,0x3766c2eccb0,~
+code-creation,Eval,10,211573,0x3766c2ecee6,98, internal/options.js:1:1,0x3766c2ecce8,~
+code-creation,LazyCompile,10,211931,0x3766c2ed7ee,188,prepareMainThreadExecution internal/bootstrap/pre_execution.js:8:36,0x3766c2ebc30,~
+code-creation,LazyCompile,10,212024,0x3766c2ee07e,456,patchProcessObject internal/bootstrap/pre_execution.js:56:28,0x3766c2ebc88,~
+code-creation,LazyCompile,10,212323,0x3766c2ee846,891,resolve path.js:127:10,0x3766c2d6470,~
+code-creation,LazyCompile,10,212382,0x3766c2ef246,33,validateString internal/validators.js:105:24,0x11d41a31eb8,~
+code-creation,LazyCompile,10,212425,0x3766c2ef39e,18,isPathSeparator path.js:38:25,0x3766c2d62b8,~
+code-creation,LazyCompile,10,212458,0x3766c2ef4f6,36,isWindowsDeviceRoot path.js:46:29,0x3766c2d6368,~
+code-creation,LazyCompile,10,212505,0x3766c2ef696,30,cwd internal/process/main_thread_only.js:41:15,0x11d41a3caa8,~
+code-creation,LazyCompile,10,212635,0x3766c2ef88e,457,normalizeString path.js:52:25,0x3766c2d63c0,~
+code-creation,LazyCompile,10,212725,0x3766c2efefe,76,addReadOnlyProcessAlias internal/bootstrap/pre_execution.js:93:33,0x3766c2ebce0,~
+code-creation,LazyCompile,10,212780,0x3766c2f00e6,29,getOptionValue internal/options.js:6:24,0x3766c2ecdb0,~
+code-creation,LazyCompile,10,212848,0x3766c2f02fe,75,setupTraceCategoryState internal/bootstrap/pre_execution.js:186:33,0x3766c2ebfc8,~
+code-creation,LazyCompile,10,212900,0x3766c2f0556,87,toggleTraceCategoryState internal/process/per_thread.js:337:34,0x11d41a39480,~
+code-creation,LazyCompile,10,212942,0x3766c2f07be,84,setupInspectorHooks internal/bootstrap/pre_execution.js:192:29,0x3766c2ec020,~
+code-creation,Eval,10,213041,0x3766c2f0bde,6, internal/inspector_async_hook.js:1:1,0x3766c2f0b10,~
+code-creation,Eval,10,213068,0x3766c2f0e1e,74, internal/inspector_async_hook.js:1:1,0x3766c2f0b48,~
+code-creation,LazyCompile,10,213214,0x3766c2f1086,91,setupWarningHandler internal/bootstrap/pre_execution.js:105:29,0x3766c2ebd38,~
+tick,0x7ff6c447dcc3,213237,0,0x0,3,0x7ff6c424f050,0x3766c2ed814,0x3766c2eb123
+code-creation,LazyCompile,10,213270,0x3766c2f128e,23,addListener events.js:276:58,0x11d41a13738,~
+code-creation,LazyCompile,10,213382,0x3766c2f163e,429,_addListener events.js:214:22,0x11d41a13268,~
+code-creation,LazyCompile,10,213421,0x3766c2f1c6e,34,checkListener events.js:61:23,0x11d41a13108,~
+code-creation,LazyCompile,10,213472,0x3766c2f1e46,90,setupDebugEnv internal/bootstrap/pre_execution.js:141:23,0x3766c2ebe68,~
+code-creation,LazyCompile,10,213540,0x3766c2f2186,147,initializeDebugEnv internal/util/debuglog.js:12:28,0x3766c2e7210,~
+code-creation,LazyCompile,10,213585,0x3766c2f244e,98,setupSignalHandlers internal/bootstrap/pre_execution.js:148:29,0x3766c2ebec0,~
+code-creation,LazyCompile,10,213628,0x3766c2f279e,54,createSignalHandlers internal/process/main_thread_only.js:125:30,0x11d41a3a220,~
+code-creation,LazyCompile,10,213765,0x3766c2f2ade,373,emit events.js:153:44,0x11d41a136e0,~
+code-creation,LazyCompile,10,213841,0x3766c2f3086,216,startListeningIfSignal internal/process/main_thread_only.js:129:34,0x3766c2f2628,~
+code-creation,LazyCompile,10,213876,0x3766c2f3416,21,isSignal internal/process/main_thread_only.js:120:18,0x11d41a3a1c8,~
+code-creation,LazyCompile,10,213935,0x3766c2f36fe,139,initializeReport internal/bootstrap/pre_execution.js:125:26,0x3766c2ebde8,~
+code-creation,LazyCompile,10,213979,0x3766c2f398e,53,initializeReportSignalHandlers internal/bootstrap/pre_execution.js:162:40,0x3766c2ebf18,~
+code-creation,LazyCompile,10,214025,0x3766c2f3c06,115,initializeHeapSnapshotSignalHandlers internal/bootstrap/pre_execution.js:172:46,0x3766c2ebf70,~
+code-creation,LazyCompile,10,214074,0x3766c2f3f06,128,setupChildProcessIpcChannel internal/bootstrap/pre_execution.js:293:37,0x3766c2ec110,~
+code-creation,LazyCompile,10,214163,0x3766c2f4336,249,initializePolicy internal/bootstrap/pre_execution.js:317:26,0x3766c2ec1c0,~
+code-creation,LazyCompile,10,214235,0x3766c2f4796,74,initializeClusterIPC internal/bootstrap/pre_execution.js:308:30,0x3766c2ec168,~
+code-creation,LazyCompile,10,214365,0x3766c2f4f5e,570,initializeDeprecations internal/bootstrap/pre_execution.js:210:32,0x3766c2ec078,~
+code-creation,LazyCompile,10,214477,0x3766c2f57be,60,initializeFrozenIntrinsics internal/bootstrap/pre_execution.js:377:36,0x3766c2ec2c8,~
+code-creation,LazyCompile,10,214513,0x3766c2f59a6,27,initializeCJSLoader internal/bootstrap/pre_execution.js:340:29,0x3766c2ec218,~
+code-creation,Eval,10,215130,0x3766c2f6dde,6, internal/modules/cjs/loader.js:1:1,0x3766c2f6d10,~
+tick,0x7ff6c3d0114c,215173,1,0x7ff6c3dc2f70,3,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3766c2f59af,0x3766c2ed897,0x3766c2eb123
+code-creation,Eval,10,215312,0x3766c2f7fd6,1913, internal/modules/cjs/loader.js:1:1,0x3766c2f6d48,~
+code-creation,Eval,10,215719,0x3766c2f9f46,6, vm.js:1:1,0x3766c2f9e78,~
+code-creation,Eval,10,215777,0x3766c2fa80e,569, vm.js:1:1,0x3766c2f9eb0,~
+code-creation,Eval,10,216102,0x3766c2fc3d6,6, util.js:1:1,0x3766c2fc308,~
+code-creation,Eval,10,216174,0x3766c2fcffe,733, util.js:1:1,0x3766c2fc340,~
+tick,0x7ff6c42cfbb4,217193,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3766c2f814a,0xe862e7927b,0xe862e78fe2,0x3766c2f59af,0x3766c2ed897,0x3766c2eb123
+code-creation,Eval,10,217556,0x3766c2ff52e,6, fs.js:1:1,0x3766c2ff460,~
+code-creation,Eval,10,217768,0x20f7cc82e76,2543, fs.js:1:1,0x3766c2ff498,~
+code-creation,Eval,10,218447,0x20f7cc89c0e,6, internal/fs/utils.js:1:1,0x20f7cc89b40,~
+code-creation,Eval,10,218554,0x20f7cc8ae96,1394, internal/fs/utils.js:1:1,0x20f7cc89b78,~
+tick,0x7ff6c41d3aa0,219235,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3766c2f81a8,0xe862e7927b,0xe862e78fe2,0x3766c2f59af,0x3766c2ed897,0x3766c2eb123
+code-creation,Eval,10,219329,0x20f7cc8ce06,6, internal/modules/cjs/helpers.js:1:1,0x20f7cc8cd38,~
+code-creation,Eval,10,219382,0x20f7cc8d1de,289, internal/modules/cjs/helpers.js:1:1,0x20f7cc8cd70,~
+code-creation,Eval,10,219987,0x20f7cc8e57e,6, url.js:1:1,0x20f7cc8e4b0,~
+code-creation,Eval,10,220059,0x20f7cc8ee2e,954, url.js:1:1,0x20f7cc8e4e8,~
+code-creation,Eval,10,220178,0x20f7cc8fc4e,6, internal/idna.js:1:1,0x20f7cc8fb80,~
+code-creation,Eval,10,220208,0x20f7cc8fd8e,131, internal/idna.js:1:1,0x20f7cc8fbb8,~
+code-creation,LazyCompile,10,220665,0x20f7cc90f16,363,Module._initPaths internal/modules/cjs/loader.js:884:29,0x3766c2f7910,~
+code-creation,LazyCompile,10,220851,0x20f7cc916a6,254,initializeESMLoader internal/bootstrap/pre_execution.js:344:29,0x3766c2ec270,~
+code-creation,LazyCompile,10,220937,0x20f7cc928f6,19,SafeWeakMap internal/per_context/primordials.js:68:3,0x46d8b84f38,~
+code-creation,LazyCompile,10,220997,0x20f7cc92a5e,66,loadPreloadModules internal/bootstrap/pre_execution.js:385:28,0x3766c2ec320,~
+code-creation,LazyCompile,10,221061,0x20f7cc92cee,158,Module._preloadModules internal/modules/cjs/loader.js:923:34,0x3766c2f7990,~
+code-creation,LazyCompile,10,221121,0x20f7cc9302e,90,Module internal/modules/cjs/loader.js:97:16,0x3766c2f6ec0,~
+tick,0x7ff6c42bfc82,221236,0,0x0,2,0x7ff6c424f050,0x20f7cc93050,0x20f7cc92d10,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,LazyCompile,10,221338,0x20f7cc932ee,501,dirname path.js:579:10,0x3766c2d6680,~
+code-creation,LazyCompile,10,221420,0x20f7cc9394e,43,updateChildren internal/modules/cjs/loader.js:91:24,0x3766c2f6e68,~
+code-creation,LazyCompile,10,221521,0x20f7cc93be6,275,Module._nodeModulePaths internal/modules/cjs/loader.js:381:37,0x3766c2f7498,~
+code-creation,LazyCompile,10,221637,0x20f7cc9412e,143,Module.require internal/modules/cjs/loader.js:675:36,0x3766c2f76a8,~
+code-creation,LazyCompile,10,221744,0x20f7cc94486,411,Module._load internal/modules/cjs/loader.js:508:24,0x3766c2f75a0,~
+code-creation,LazyCompile,10,221786,0x20f7cc949c6,55, internal/util/debuglog.js:57:18,0x3766c2e77e8,~
+code-creation,LazyCompile,10,221838,0x20f7cc94c86,161,debuglogImpl internal/util/debuglog.js:34:22,0x3766c2e72c0,~
+code-creation,RegExp,4,221912,0xb81b042580,784,^$
+code-creation,LazyCompile,10,221990,0x20f7cc94fbe,3,debug internal/util/debuglog.js:45:35,0x20f7cc94b90,~
+code-creation,LazyCompile,10,222158,0x20f7cc95346,542,Module._resolveFilename internal/modules/cjs/loader.js:570:35,0x3766c2f75f8,~
+code-creation,LazyCompile,10,222202,0x20f7cc95a9e,31,NativeModule.canBeRequiredByUsers internal/bootstrap/loaders.js:196:45,0xe862e6b138,~
+code-creation,LazyCompile,10,222288,0x20f7cc95dae,402,Module._resolveLookupPaths internal/modules/cjs/loader.js:462:38,0x3766c2f7548,~
+code-creation,LazyCompile,10,222427,0x20f7cc9644e,500,Module._findPath internal/modules/cjs/loader.js:301:28,0x3766c2f7440,~
+code-creation,LazyCompile,10,222481,0x20f7cc96ab6,125,isAbsolute path.js:349:13,0x3766c2d6520,~
+code-creation,RegExp,4,222578,0xb81b0428e0,1515,(?:^|\\/)\\.?\\.$
+code-creation,LazyCompile,10,222652,0x20f7cc96efe,89,stat internal/modules/cjs/loader.js:80:14,0x3766c2f6e10,~
+code-creation,LazyCompile,10,222723,0x20f7cc971ce,264,toNamespacedPath path.js:546:19,0x3766c2d6628,~
+code-creation,LazyCompile,10,222848,0x20f7cc975b6,51,tryExtensions internal/modules/cjs/loader.js:274:23,0x3766c2f7078,~
+code-creation,LazyCompile,10,222899,0x20f7cc9777e,60,tryFile internal/modules/cjs/loader.js:259:17,0x3766c2f6fc8,~
+code-creation,LazyCompile,10,223016,0x20f7cc9796e,47,toRealPath internal/modules/cjs/loader.js:267:20,0x3766c2f7020,~
+tick,0x7ff6c43e1075,223214,0,0x0,3,0x7ff6c424f050,0x20f7cc97996,0x20f7cc977b5,0x20f7cc975d2,0x20f7cc965d3,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,LazyCompile,10,223348,0x20f7cc97cd6,1033,realpathSync fs.js:1389:22,0x20f7cc81368,~
+code-creation,LazyCompile,10,223436,0x20f7cc988ee,117,getOptions internal/fs/utils.js:175:20,0x20f7cc89da0,~
+code-creation,LazyCompile,10,223482,0x20f7cc98b36,40,assertEncoding internal/fs/utils.js:66:24,0x20f7cc89c98,~
+code-creation,LazyCompile,10,223519,0x20f7cc98cb6,45,toPathIfFileURL internal/url.js:1385:25,0x3766c2d0778,~
+code-creation,LazyCompile,10,223571,0x20f7cc98e76,111,hidden internal/errors.js:233:25,0x11d41a328a8,~
+code-creation,LazyCompile,10,223633,0x20f7cc9906e,89, internal/fs/utils.js:424:38,0x20f7cc8a7f0,~
+code-creation,LazyCompile,10,223686,0x20f7cc99256,122, internal/fs/utils.js:196:35,0x20f7cc8a3d0,~
+code-creation,LazyCompile,10,223723,0x20f7cc99466,19,isUint8Array internal/util/types.js:19:22,0x11d41a29ed0,~
+code-creation,LazyCompile,10,223790,0x20f7cc995fe,25,splitRoot fs.js:1347:33,0x20f7cc81720,~
+code-creation,RegExp,4,223865,0xb81b042f20,1575,^(?:[a-zA-Z]:|[\\\\/]{2}[^\\\\/]+[\\\\/][^\\\\/]+)?[\\\\/]*
+code-creation,LazyCompile,10,224015,0x20f7cc99876,83,handleErrorFromBinding fs.js:121:32,0x3766c2ff5b8,~
+code-creation,LazyCompile,10,224070,0x20f7cc99a96,57,nextPart fs.js:1374:31,0x20f7cc817d0,~
+code-creation,LazyCompile,10,224192,0x20f7cc99d6e,23,isFileType fs.js:172:20,0x3766c2ff718,~
+code-creation,LazyCompile,10,224702,0x20f7cc9a24e,80,encodeRealpathResult fs.js:1360:30,0x20f7cc81310,~
+code-creation,LazyCompile,10,224836,0x20f7cc9a6be,289,Module.load internal/modules/cjs/loader.js:635:33,0x3766c2f7650,~
+code-creation,LazyCompile,10,224884,0x20f7cc9ab4e,24,assert internal/assert.js:10:16,0x11d41a2ad90,~
+code-creation,LazyCompile,10,224994,0x20f7cc9ad2e,109,findLongestRegisteredExtension internal/modules/cjs/loader.js:287:40,0x3766c2f70d0,~
+code-creation,LazyCompile,10,225104,0x20f7cc9afbe,444,basename path.js:665:11,0x3766c2d66d8,~
+code-creation,LazyCompile,10,225231,0x20f7cc9b5ae,51,Module._extensions..js internal/modules/cjs/loader.js:785:37,0x3766c2f7758,~
+tick,0x7ffc5007dc0a,225255,0,0x0,3,0x7ff6c424f050,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,LazyCompile,10,225348,0x20f7cc9b7f6,428,readFileSync fs.js:346:22,0x3766c2ffb30,~
+code-creation,LazyCompile,10,225408,0x20f7cc9be26,33,isEncoding buffer.js:426:40,0x11d41a2f160,~
+code-creation,LazyCompile,10,225448,0x20f7cc9bf9e,32,normalizeEncoding internal/util.js:103:27,0x11d41a0a540,~
+code-creation,LazyCompile,10,225493,0x20f7cc9c0ee,10,isUint32 internal/validators.js:21:18,0x11d41a31e08,~
+code-creation,LazyCompile,10,225550,0x20f7cc9c29e,135,openSync fs.js:438:18,0x3766c2ffc90,~
+code-creation,LazyCompile,10,225591,0x20f7cc9c516,42, internal/fs/utils.js:436:42,0x20f7cc8a848,~
+code-creation,LazyCompile,10,225676,0x20f7cc9c9ae,512,stringToFlags internal/fs/utils.js:323:23,0x20f7cc89f58,~
+code-creation,LazyCompile,10,225731,0x20f7cc9cece,148,parseMode internal/validators.js:40:19,0x11d41a31e60,~
+code-creation,LazyCompile,10,226179,0x20f7cc9d166,76,tryStatSync fs.js:309:21,0x3766c2ffa28,~
+code-creation,LazyCompile,10,226395,0x20f7cc9d386,111,tryCreateBuffer fs.js:319:25,0x3766c2ffa80,~
+code-creation,LazyCompile,10,226481,0x20f7cc9d58e,20,allocUnsafe buffer.js:271:42,0x11d41a2f000,~
+code-creation,LazyCompile,10,226519,0x20f7cc9d70e,76, buffer.js:245:36,0x11d41a2ef50,~
+code-creation,LazyCompile,10,226568,0x20f7cc9d8ee,130,allocate buffer.js:296:18,0x11d41a2e9d0,~
+code-creation,LazyCompile,10,226604,0x20f7cc9db5e,45,alignPool buffer.js:128:19,0x11d41a2e870,~
+code-creation,LazyCompile,10,226650,0x20f7cc9dcee,100,tryReadSync fs.js:334:21,0x3766c2ffad8,~
+code-creation,LazyCompile,10,226712,0x20f7cc9df56,184,readSync fs.js:489:18,0x3766c2ffd70,~
+code-creation,LazyCompile,10,226765,0x20f7cc9e286,169, internal/validators.js:88:40,0x11d41a32070,~
+code-creation,LazyCompile,10,226806,0x20f7cc9e546,56, internal/validators.js:132:40,0x11d41a320c8,~
+code-creation,LazyCompile,10,226882,0x20f7cc9ee86,105, internal/fs/utils.js:399:3,0x20f7cc8a740,~
+code-creation,LazyCompile,10,226963,0x20f7cc9f0e6,55,closeSync fs.js:404:19,0x3766c2ffbe0,~
+code-creation,LazyCompile,10,227043,0x20f7cc9f29e,129,toString buffer.js:622:46,0x11d41a2f318,~
+code-creation,LazyCompile,10,227148,0x20f7cc9f666,551,stringSlice buffer.js:568:21,0x11d41a2ec38,~
+tick,0x7ff6c4b23276,227223,0,0x0,3,0x7ff6c424f050,0x20f7cc9f319,0x20f7cc9b998,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,LazyCompile,10,227277,0x20f7cc9fda6,48,stripBOM internal/modules/cjs/helpers.js:48:18,0x20f7cc8cec0,~
+code-creation,LazyCompile,10,227423,0x20f7cca0266,631,Module._compile internal/modules/cjs/loader.js:699:37,0x3766c2f7700,~
+code-creation,LazyCompile,10,227491,0x20f7cca09ce,129,stripShebang internal/modules/cjs/helpers.js:58:22,0x20f7cc8cf18,~
+code-creation,Eval,10,227544,0x20f7cca0e3e,6, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\no-cluster.js:1:1,0x20f7cca0d70,~
+code-creation,Eval,10,227570,0x20f7cca0f3e,35, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\no-cluster.js:1:1,0x20f7cca0da8,~
+code-creation,LazyCompile,10,227633,0x20f7cca128e,94,makeRequireFunction internal/modules/cjs/helpers.js:12:29,0x20f7cc8ce38,~
+code-creation,LazyCompile,10,227687,0x20f7cca150e,17,require internal/modules/cjs/helpers.js:15:19,0x20f7cca10c8,~
+code-creation,LazyCompile,10,227753,0x20f7cca17ae,76,NativeModule.compileForPublicLoader internal/bootstrap/loaders.js:211:57,0xe862e6b190,~
+code-creation,Eval,10,227813,0x20f7cca1b96,6, cluster.js:1:1,0x20f7cca1ac8,~
+code-creation,Eval,10,227835,0x20f7cca1c4e,44, cluster.js:1:1,0x20f7cca1b00,~
+code-creation,Eval,10,228148,0x20f7cca271e,6, internal/cluster/master.js:1:1,0x20f7cca2650,~
+code-creation,Eval,10,228221,0x20f7cca303e,811, internal/cluster/master.js:1:1,0x20f7cca2688,~
+code-creation,Eval,10,228682,0x20f7cca431e,6, child_process.js:1:1,0x20f7cca4250,~
+code-creation,Eval,10,228743,0x20f7cca4c6e,666, child_process.js:1:1,0x20f7cca4288,~
+tick,0x7ff6c45ab2e0,229235,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x20f7cca4e3b,0xe862e7927b,0xe862e78fe2,0x20f7cca30e7,0xe862e7927b,0xe862e78fe2,0x20f7cca1c70,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x20f7cca0f43,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,229547,0x20f7cca7dbe,6, internal/child_process.js:1:1,0x20f7cca7cf0,~
+code-creation,Eval,10,229644,0x20f7cca9046,1285, internal/child_process.js:1:1,0x20f7cca7d28,~
+code-creation,Eval,10,230606,0x20f7ccab656,6, net.js:1:1,0x20f7ccab588,~
+code-creation,Eval,10,230769,0x20f7ccadb9e,2580, net.js:1:1,0x20f7ccab5c0,~
+code-creation,Eval,10,231032,0x20f7ccb0066,6, stream.js:1:1,0x20f7ccaff98,~
+code-creation,Eval,10,231087,0x20f7ccb0346,397, stream.js:1:1,0x20f7ccaffd0,~
+tick,0x7ff6c46da582,231200,0,0x0,0,0xe862e7925b,0xe862e78fe2,0x20f7ccadd2b,0xe862e7927b,0xe862e78fe2,0x20f7cca91f2,0xe862e7927b,0xe862e78fe2,0x20f7cca4e3b,0xe862e7927b,0xe862e78fe2,0x20f7cca30e7,0xe862e7927b,0xe862e78fe2,0x20f7cca1c70,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x20f7cca0f43,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,231302,0x20f7ccb0c56,6, internal/streams/pipeline.js:1:1,0x20f7ccb0b88,~
+code-creation,Eval,10,231340,0x20f7ccb0fb6,148, internal/streams/pipeline.js:1:1,0x20f7ccb0bc0,~
+code-creation,Eval,10,231495,0x20f7ccb150e,6, internal/streams/end-of-stream.js:1:1,0x20f7ccb1440,~
+code-creation,Eval,10,231522,0x20f7ccb16c6,97, internal/streams/end-of-stream.js:1:1,0x20f7ccb1478,~
+code-creation,Eval,10,231636,0x20f7ccb1ad6,6, internal/streams/legacy.js:1:1,0x20f7ccb1a08,~
+code-creation,Eval,10,231665,0x20f7ccb1c9e,110, internal/streams/legacy.js:1:1,0x20f7ccb1a40,~
+code-creation,Eval,10,232278,0x20f7ccb2bb6,6, _stream_readable.js:1:1,0x20f7ccb2ae8,~
+code-creation,Eval,10,232367,0x20f7ccb426e,1187, _stream_readable.js:1:1,0x20f7ccb2b20,~
+code-creation,Eval,10,232607,0x20f7ccb5656,6, internal/streams/buffer_list.js:1:1,0x20f7ccb5588,~
+code-creation,Eval,10,232647,0x20f7ccb5c16,178, internal/streams/buffer_list.js:1:1,0x20f7ccb55c0,~
+code-creation,Eval,10,232795,0x20f7ccb61ce,6, internal/streams/destroy.js:1:1,0x20f7ccb6100,~
+code-creation,Eval,10,232821,0x20f7ccb650e,78, internal/streams/destroy.js:1:1,0x20f7ccb6138,~
+code-creation,Eval,10,232928,0x20f7ccb6956,6, internal/streams/state.js:1:1,0x20f7ccb6888,~
+code-creation,Eval,10,232956,0x20f7ccb6b06,94, internal/streams/state.js:1:1,0x20f7ccb68c0,~
+tick,0x7ff6c42a7c21,233229,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x20f7ccb03b3,0xe862e7927b,0xe862e78fe2,0x20f7ccadd2b,0xe862e7927b,0xe862e78fe2,0x20f7cca91f2,0xe862e7927b,0xe862e78fe2,0x20f7cca4e3b,0xe862e7927b,0xe862e78fe2,0x20f7cca30e7,0xe862e7927b,0xe862e78fe2,0x20f7cca1c70,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x20f7cca0f43,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,233509,0x20f7ccb7b86,6, _stream_writable.js:1:1,0x20f7ccb7ab8,~
+code-creation,Eval,10,233598,0x20f7ccb8dee,1080, _stream_writable.js:1:1,0x20f7ccb7af0,~
+code-creation,Eval,10,233870,0x20f7ccba35e,6, _stream_duplex.js:1:1,0x20f7ccba290,~
+code-creation,Eval,10,233922,0x20f7ccba91e,449, _stream_duplex.js:1:1,0x20f7ccba2c8,~
+code-creation,Eval,10,234190,0x20f7ccbba66,6, _stream_transform.js:1:1,0x20f7ccbb998,~
+code-creation,Eval,10,234231,0x20f7ccbbed6,273, _stream_transform.js:1:1,0x20f7ccbb9d0,~
+code-creation,Eval,10,234355,0x20f7ccbc7de,6, _stream_passthrough.js:1:1,0x20f7ccbc710,~
+code-creation,Eval,10,234386,0x20f7ccbc95e,122, _stream_passthrough.js:1:1,0x20f7ccbc748,~
+code-creation,Eval,10,234584,0x20f7ccbd316,6, internal/net.js:1:1,0x20f7ccbd248,~
+code-creation,Eval,10,234634,0x20f7ccbd7a6,717, internal/net.js:1:1,0x20f7ccbd280,~
+tick,0x7ff6c441fbd4,235226,0,0x0,1
+code-creation,Eval,10,236318,0x3f18fec9eee,6, internal/stream_base_commons.js:1:1,0x3f18fec9e20,~
+code-creation,Eval,10,236372,0x3f18feca486,565, internal/stream_base_commons.js:1:1,0x3f18fec9e58,~
+code-creation,Eval,10,236515,0x3f18fecaf36,6, internal/dtrace.js:1:1,0x3f18fecae68,~
+code-creation,Eval,10,236550,0x3f18fecb2ce,161, internal/dtrace.js:1:1,0x3f18fecaea0,~
+code-creation,LazyCompile,10,236766,0x3f18fecc106,45,protoGetter net.js:619:21,0x20f7ccabb00,~
+tick,0x7ff6c42a88c7,237243,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x20f7cca9200,0xe862e7927b,0xe862e78fe2,0x20f7cca4e3b,0xe862e7927b,0xe862e78fe2,0x20f7cca30e7,0xe862e7927b,0xe862e78fe2,0x20f7cca1c70,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x20f7cca0f43,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,237500,0x3f18fecd796,6, dgram.js:1:1,0x3f18fecd6c8,~
+code-creation,Eval,10,237633,0x3f18fecf23e,1785, dgram.js:1:1,0x3f18fecd700,~
+code-creation,Eval,10,237840,0x3f18fed0bf6,6, internal/dgram.js:1:1,0x3f18fed0b28,~
+code-creation,Eval,10,237878,0x3f18fed0ee6,263, internal/dgram.js:1:1,0x3f18fed0b60,~
+code-creation,Eval,10,238443,0x3f18fed4556,6, internal/socket_list.js:1:1,0x3f18fed4488,~
+code-creation,Eval,10,238483,0x3f18fed4936,158, internal/socket_list.js:1:1,0x3f18fed44c0,~
+code-creation,LazyCompile,10,238711,0x3f18fed4f3e,15,customPromiseExecFunction child_process.js:150:35,0x20f7cca48a0,~
+code-creation,Eval,10,238881,0x3f18fed52ae,6, internal/cluster/round_robin_handle.js:1:1,0x3f18fed51e0,~
+code-creation,Eval,10,238916,0x3f18fed5586,171, internal/cluster/round_robin_handle.js:1:1,0x3f18fed5218,~
+code-creation,Eval,10,239019,0x3f18fed5ace,6, internal/cluster/utils.js:1:1,0x3f18fed5a00,~
+code-creation,Eval,10,239045,0x3f18fed5ca6,62, internal/cluster/utils.js:1:1,0x3f18fed5a38,~
+tick,0x7ff6c42df23f,239204,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x20f7cca311e,0xe862e7927b,0xe862e78fe2,0x20f7cca1c70,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x20f7cca0f43,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,239242,0x3f18fed612e,6, internal/cluster/shared_handle.js:1:1,0x3f18fed6060,~
+code-creation,Eval,10,239277,0x3f18fed6316,87, internal/cluster/shared_handle.js:1:1,0x3f18fed6098,~
+code-creation,Eval,10,239393,0x3f18fed6786,6, internal/cluster/worker.js:1:1,0x3f18fed66b8,~
+code-creation,Eval,10,239426,0x3f18fed6a3e,176, internal/cluster/worker.js:1:1,0x3f18fed66f0,~
+code-creation,Eval,10,240672,0x3f18fed789e,6, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\redir-stdout.js:1:1,0x3f18fed77d0,~
+code-creation,Eval,10,240751,0x3f18fed7a8e,126, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\redir-stdout.js:1:1,0x3f18fed7808,~
+code-creation,Eval,10,240865,0x3f18fed8126,6, worker_threads.js:1:1,0x3f18fed8058,~
+code-creation,Eval,10,240894,0x3f18fed82c6,149, worker_threads.js:1:1,0x3f18fed8090,~
+tick,0x7ff6c45adc8a,241216,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3f18fed82cb,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3f18fed7aa3,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,241253,0x3f18fed8dde,6, internal/worker.js:1:1,0x3f18fed8d10,~
+code-creation,Eval,10,241341,0x3f18fed970e,914, internal/worker.js:1:1,0x3f18fed8d48,~
+code-creation,Eval,10,241624,0x3f18feda8ce,6, internal/worker/io.js:1:1,0x3f18feda800,~
+code-creation,Eval,10,241708,0x3f18fedb40e,1024, internal/worker/io.js:1:1,0x3f18feda838,~
+code-creation,Eval,10,242082,0x3f18feddf66,6, internal/error-serdes.js:1:1,0x3f18fedde98,~
+code-creation,Eval,10,242129,0x3f18fede396,283, internal/error-serdes.js:1:1,0x3f18fedded0,~
+code-creation,LazyCompile,10,242392,0x3f18fedf02e,662,Socket net.js:236:16,0x20f7ccab9a0,~
+code-creation,LazyCompile,10,242455,0x3f18fedfa8e,138,Duplex _stream_duplex.js:49:16,0x20f7ccba390,~
+code-creation,LazyCompile,10,242559,0x3f18fedfdde,119,Readable _stream_readable.js:151:18,0x20f7ccb2c98,~
+code-creation,LazyCompile,10,242594,0x3f18fee007e,20,Stream internal/streams/legacy.js:7:16,0x20f7ccb1b08,~
+code-creation,LazyCompile,10,242709,0x3f18fee04f6,308,ReadableState _stream_readable.js:72:23,0x20f7ccb2c40,~
+code-creation,LazyCompile,10,242777,0x3f18fee0b26,113,getHighWaterMark internal/streams/state.js:12:26,0x20f7ccb69e0,~
+code-creation,LazyCompile,10,242813,0x3f18fee0d66,27,highWaterMarkFrom internal/streams/state.js:7:27,0x20f7ccb6988,~
+code-creation,LazyCompile,10,242859,0x3f18fee0ede,18,BufferList internal/streams/buffer_list.js:11:14,0x20f7ccb56e0,~
+code-creation,LazyCompile,10,243040,0x3f18fee14a6,168,Writable _stream_writable.js:205:18,0x20f7ccb7c68,~
+tick,0x7ff6c43da2ab,243162,0,0x0,3,0x7ff6c421fe80,0x3f18fee14e9,0x3f18fedfac0,0x3f18fedf0fd,0x3f18fed7ada,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,LazyCompile,10,243194,0x3f18fee1abe,317,WritableState _stream_writable.js:56:23,0x20f7ccb7c10,~
+code-creation,LazyCompile,10,243366,0x3f18fee225e,146,createHandle net.js:112:22,0x20f7ccab738,~
+code-creation,LazyCompile,10,243441,0x3f18fee251e,231, internal/validators.js:71:3,0x11d41a32018,~
+code-creation,LazyCompile,10,243471,0x3f18fee27ee,10,isInt32 internal/validators.js:17:17,0x11d41a31db0,~
+code-creation,LazyCompile,10,243526,0x3f18fee292e,16,set net.js:1585:6,0x20f7ccacfe0,~
+code-creation,LazyCompile,10,243559,0x3f18fee2a76,9,get net.js:1584:6,0x20f7ccacf88,~
+code-creation,LazyCompile,10,243649,0x3f18fee2c66,217,Readable.on _stream_readable.js:845:33,0x20f7ccb37d0,~
+code-creation,LazyCompile,10,243710,0x3f18fee3096,80,initSocketHandle net.js:219:26,0x20f7ccab948,~
+code-creation,LazyCompile,10,243758,0x3f18fee3306,136,undestroy internal/streams/destroy.js:71:19,0x20f7ccb6308,~
+code-creation,LazyCompile,10,243816,0x3f18fee374e,35,getNewAsyncId net.js:131:23,0x20f7ccab790,~
+code-creation,LazyCompile,10,243887,0x3f18fee3cbe,6,get internal/bootstrap/pre_execution.js:270:8,0x3766c2f4b28,~
+code-creation,Eval,10,244601,0x3f18fee410e,6, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\soft-exit.js:1:1,0x3f18fee4040,~
+code-creation,Eval,10,244630,0x3f18fee41b6,35, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\soft-exit.js:1:1,0x3f18fee4078,~
+tick,0x7ffc50110204,245258,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,245606,0x3f18fee4aee,6, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\detect-port.js:1:1,0x3f18fee4a20,~
+code-creation,Eval,10,245639,0x3f18fee4c7e,60, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\lib\\preload\\detect-port.js:1:1,0x3f18fee4a58,~
+code-creation,LazyCompile,10,246066,0x3f18fee5386,372,tryPackage internal/modules/cjs/loader.js:213:20,0x3766c2f6f70,~
+code-creation,LazyCompile,10,246140,0x3f18fee5916,218,readPackage internal/modules/cjs/loader.js:187:21,0x3766c2f6f18,~
+tick,0x7ffc50110204,247187,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee4c94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cc92d7c,0x20f7cc92a9a,0x3766c2ed8a5,0x3766c2eb123
+code-creation,Eval,10,247420,0x3f18fee66fe,6, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\node_modules\\on-net-listen\\index.js:1:1,0x3f18fee6630,~
+code-creation,Eval,10,247455,0x3f18fee688e,50, C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\node_modules\\on-net-listen\\index.js:1:1,0x3f18fee6668,~
+code-creation,Eval,10,247661,0x3f18fee6f1e,6, async_hooks.js:1:1,0x3f18fee6e50,~
+code-creation,Eval,10,247718,0x3f18fee74f6,551, async_hooks.js:1:1,0x3f18fee6e88,~
+code-creation,LazyCompile,10,247872,0x3f18fee7fae,147,onListening C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\node_modules\\on-net-listen\\index.js:7:22,0x3f18fee6730,~
+code-creation,LazyCompile,10,247934,0x3f18fee82ae,15,createHook async_hooks.js:124:20,0x3f18fee6f50,~
+code-creation,LazyCompile,10,247999,0x3f18fee8516,246,AsyncHook async_hooks.js:48:14,0x3f18fee6fa8,~
+code-creation,LazyCompile,10,248098,0x3f18fee8996,536,enable async_hooks.js:67:9,0x3f18fee7000,~
+code-creation,LazyCompile,10,248146,0x3f18fee9106,120,getHookArrays internal/async_hooks.js:194:23,0x11d41a3fb80,~
+code-creation,LazyCompile,10,248226,0x3f18fee93b6,45,enableHooks internal/async_hooks.js:236:21,0x11d41a3fce0,~
+code-creation,LazyCompile,10,248311,0x3f18fee9676,97,Module.runMain internal/modules/cjs/loader.js:825:26,0x3766c2f78b8,~
+tick,0x7ff6c3e9b91e,249210,1,0x7ff6c3df6950,6,0x7ff6c457e1f0,0x20f7cc9f10e,0x20f7cc9b94d,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,249417,0x3f18fee9cb6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\app.js:1:1,0x3f18fee9be8,~
+code-creation,Eval,10,249504,0x3f18fee9e7e,128, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\app.js:1:1,0x3f18fee9c20,~
+tick,0x7ffc5010fa64,251196,0,0x0,4,0x7ff6c424f170,0x3766c2eeb92,0x20f7cc93bf3,0x20f7cc9a70b,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,251593,0x3f18feea6c6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\index.js:1:1,0x3f18feea5f8,~
+code-creation,Eval,10,251621,0x3f18feea75e,15, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\index.js:1:1,0x3f18feea630,~
+code-creation,Eval,10,252395,0x3f18feeb00e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\express.js:1:1,0x3f18feeaf40,~
+code-creation,Eval,10,252443,0x3f18feeb28e,267, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\express.js:1:1,0x3f18feeaf78,~
+tick,0x7ff6c4605bc4,253174,0,0x0,0,0x3766c2ef8d3,0x3766c2eeb92,0x20f7cc971f3,0x20f7cc9c300,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2a2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,253523,0x3f18feebdbe,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\index.js:1:1,0x3f18feebcf0,~
+code-creation,Eval,10,253574,0x3f18feec18e,273, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\index.js:1:1,0x3f18feebd28,~
+code-creation,LazyCompile,0,254119,0xb81b044320,1956,normalizeString path.js:52:25,0x3766c2d63c0,*
+code-creation,Eval,10,254985,0x3f18feed826,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:1:1,0x3f18feed758,~
+code-creation,Eval,10,255029,0x3f18feee06e,234, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:1:1,0x3f18feed790,~
+tick,0x7ffc50110204,255176,1,0x7ff6c3df9b60,6,0x7ff6c457e1f0,0x20f7cc96f36,0x20f7cc96541,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3f18feee107,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feec1b6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2a2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,255918,0x3f18feee8c6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\lib\\compat\\index.js:1:1,0x3f18feee7f8,~
+code-creation,Eval,10,255954,0x3f18feeeb4e,86, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\lib\\compat\\index.js:1:1,0x3f18feee830,~
+code-creation,LazyCompile,10,256018,0x3f18feeeefe,62,lazyProperty C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\lib\\compat\\index.js:53:23,0x3f18feee8f8,~
+code-creation,LazyCompile,10,256095,0x3f18feef1b6,49,get C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\lib\\compat\\index.js:54:16,0x3f18feeedd8,~
+code-creation,LazyCompile,10,256157,0x3f18feef426,139,callSiteToString C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\lib\\compat\\index.js:21:76,0x3f18feee9d0,~
+code-creation,LazyCompile,10,256262,0x3f18feef72e,133,prepareStackTrace internal/errors.js:26:27,0x11d41a00370,~
+code-creation,LazyCompile,10,256298,0x3f18feef9d6,4,prepareObjectStackTrace C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\lib\\compat\\index.js:26:36,0x3f18feef330,~
+code-creation,LazyCompile,10,256370,0x3f18feefb0e,24,eventListenerCount C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\lib\\compat\\index.js:45:80,0x3f18feeea50,~
+code-creation,LazyCompile,10,256471,0x3f18feefefe,179,depd C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:105:15,0x3f18feed9e8,~
+code-creation,LazyCompile,10,256525,0x3f18fef028e,131,getStack C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:365:19,0x3f18feedd28,~
+code-creation,LazyCompile,10,256584,0x3f18fef0526,4,prepareObjectStackTrace C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:389:34,0x3f18feedd80,~
+code-creation,LazyCompile,10,256649,0x3f18fef06b6,140,callSiteLocation C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:251:27,0x3f18feedb70,~
+code-creation,LazyCompile,10,256732,0x3f18fef0a7e,45,isignored C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:135:20,0x3f18feeda68,~
+code-creation,LazyCompile,10,256798,0x3f18fef0ca6,104,containsNamespace C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:31:28,0x3f18feed858,~
+code-creation,RegExp,4,256873,0xb81b044b20,957,[ \x2C]+
+code-creation,LazyCompile,10,256936,0x3f18fef103e,45,istraced C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:152:19,0x3f18feedac0,~
+code-creation,LazyCompile,10,257028,0x3f18fef1486,217,wrapfunction C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:397:23,0x3f18feeddd8,~
+code-creation,LazyCompile,10,257079,0x3f18fef17d6,58,createArgumentsString C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\depd\\index.js:73:32,0x3f18feed938,~
+tick,0x7ffc500825a2,257170,0,0x0,0,0x7ff6c43ffe70,0x3f18fef02d6,0x3f18fef14d7,0x3f18feec1e5,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2a2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,257268,0x3f18fef1b96,8, :1:1,0x3f18fef1ac8,~
+code-creation,Eval,10,257291,0x3f18fef1c36,50, :1:11,0x3f18fef1b00,~
+code-creation,LazyCompile,10,257329,0x3f18fef1e96,15,createParserGetter C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\index.js:121:29,0x3f18feebe98,~
+code-creation,Eval,10,258177,0x3f18fef25b6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\merge-descriptors\\index.js:1:1,0x3f18fef24e8,~
+code-creation,Eval,10,258208,0x3f18fef26ee,37, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\merge-descriptors\\index.js:1:1,0x3f18fef2520,~
+tick,0x7ff6c45adc70,259172,1,0x7ff6c3e07d10,2,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,259215,0x3f18fef30a6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\application.js:1:1,0x3f18fef2fd8,~
+code-creation,Eval,10,259285,0x3f18fef3aee,518, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\application.js:1:1,0x3f18fef3010,~
+code-creation,Eval,10,260484,0x3f18fef4d1e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\finalhandler\\index.js:1:1,0x3f18fef4c50,~
+code-creation,Eval,10,260532,0x3f18fef5286,194, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\finalhandler\\index.js:1:1,0x3f18fef4c88,~
+tick,0x7ffc5010f944,261177,1,0x7ff6c3dfa0c0,6,0x7ff6c457e1f0,0x20f7cc97f11,0x20f7cc97996,0x20f7cc977b5,0x3f18fee53d3,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3f18fef52cc,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,261532,0x3f18fef6a06,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\index.js:1:1,0x3f18fef6938,~
+code-creation,Eval,10,261565,0x3f18fef6abe,54, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\index.js:1:1,0x3f18fef6970,~
+code-creation,Eval,10,262240,0x3f18fef7186,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\node.js:1:1,0x3f18fef70b8,~
+code-creation,Eval,10,262302,0x3f18fef77e6,457, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\node.js:1:1,0x3f18fef70f0,~
+code-creation,Eval,10,262471,0x3f18fef8316,6, tty.js:1:1,0x3f18fef8248,~
+code-creation,Eval,10,262521,0x3f18fef8886,529, tty.js:1:1,0x3f18fef8280,~
+code-creation,Eval,10,262712,0x3f18fef954e,6, internal/tty.js:1:1,0x3f18fef9480,~
+code-creation,Eval,10,262751,0x3f18fef995e,350, internal/tty.js:1:1,0x3f18fef94b8,~
+tick,0x7ffc5010f984,263177,1,0x7ff6c3dfa0c0,6,0x7ff6c457e1f0,0x20f7cc97f11,0x20f7cc97996,0x20f7cc977b5,0x20f7cc975d2,0x20f7cc965d3,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3f18fef7842,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef6aea,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef52cc,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,263626,0x3f18fefa736,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\debug.js:1:1,0x3f18fefa668,~
+code-creation,Eval,10,263667,0x3f18fefaab6,155, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\debug.js:1:1,0x3f18fefa6a0,~
+code-creation,Eval,10,264647,0x3f18fefb7fe,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ms\\index.js:1:1,0x3f18fefb730,~
+code-creation,Eval,10,264681,0x3f18fefba8e,78, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ms\\index.js:1:1,0x3f18fefb768,~
+code-creation,LazyCompile,10,264828,0x3f18fefbe06,19, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\node.js:34:64,0x3f18fef7420,~
+code-creation,RegExp,4,264910,0xb81b044f20,879,^debug_
+code-creation,LazyCompile,10,265003,0x3f18fefc046,93,getStderr internal/process/stdio.js:38:21,0x11d41a3e0a8,~
+code-creation,LazyCompile,10,265100,0x3f18fefc50e,316,createWritableStdioStream internal/process/stdio.js:149:35,0x11d41a3dd40,~
+tick,0x7ffc5010f844,265211,1,0x7ff6c3d99d10,6,0x7ff6c457e1f0,0x3f18fefc515,0x3f18fefc058,0x3f18fef7965,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef6aea,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef52cc,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,10,265278,0x3f18fefca5e,215,WriteStream tty.js:80:21,0x3f18fef83f8,~
+code-creation,LazyCompile,10,265368,0x3f18fefcec6,248,emitInitNative internal/async_hooks.js:128:24,0x11d41a3fa78,~
+code-creation,LazyCompile,10,265439,0x3f18fefd2ae,48,init C:\\Users\\booth02-mgr2\\AppData\\Roaming\\npm\\node_modules\\0x\\node_modules\\on-net-listen\\index.js:11:10,0x3f18fee7e70,~
+code-creation,LazyCompile,10,266320,0x3f18fefdfee,17,load C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\node.js:156:14,0x3f18fef7318,~
+code-creation,LazyCompile,10,266413,0x3f18fefe216,271,enable C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\debug.js:138:16,0x3f18fefa868,~
+code-creation,LazyCompile,10,266456,0x3f18fefe696,42,save C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\node.js:139:14,0x3f18fef72c0,~
+code-creation,RegExp,4,266550,0xb81b0452e0,1033,[\\s\x2C]+
+code-creation,LazyCompile,10,266614,0x3f18fefe9fe,127,createDebug C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\debug.js:63:21,0x3f18fefa7c0,~
+code-creation,LazyCompile,10,266682,0x3f18fefed06,139,enabled C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\debug.js:176:17,0x3f18fefa918,~
+code-creation,LazyCompile,10,266733,0x3f18fefefce,65,useColors C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\node.js:75:19,0x3f18fef71b8,~
+code-creation,LazyCompile,10,266777,0x3f18feff1be,36,isatty tty.js:38:16,0x3f18fef8348,~
+code-creation,LazyCompile,10,266921,0x3f18feff376,126,selectColor C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\debug.js:44:21,0x3f18fefa768,~
+code-creation,LazyCompile,10,267023,0x3f18feff666,93,init C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\node.js:235:15,0x3f18fef73c8,~
+tick,0x7ff6c42f339d,267195,0,0x0,0,0x7ff6c41f9310,0x7ff6c4677c8c,0x20f7cc97213,0x20f7cc96f0b,0x20f7cc96541,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3f18fef52e0,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,267938,0x3f18feffece,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\encodeurl\\index.js:1:1,0x3f18feffe00,~
+code-creation,Eval,10,267990,0x3edf3f4016e,36, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\encodeurl\\index.js:1:1,0x3f18feffe38,~
+code-creation,Eval,10,268793,0x3edf3f407d6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\escape-html\\index.js:1:1,0x3edf3f40708,~
+code-creation,Eval,10,268822,0x3edf3f408d6,26, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\escape-html\\index.js:1:1,0x3edf3f40740,~
+tick,0x7ffc50110204,269199,1,0x7ff6c3dfa0c0,6,0x7ff6c457e1f0,0x20f7cc97ddd,0x20f7cc97996,0x20f7cc977b5,0x20f7cc975d2,0x3f18fee53b5,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3f18fef52f4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,270508,0x3edf3f410d6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\on-finished\\index.js:1:1,0x3edf3f41008,~
+code-creation,Eval,10,270546,0x3edf3f414a6,90, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\on-finished\\index.js:1:1,0x3edf3f41040,~
+tick,0x7ffc50110204,271210,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f414e6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef52f4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,271407,0x3edf3f41c26,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ee-first\\index.js:1:1,0x3edf3f41b58,~
+code-creation,Eval,10,271439,0x3edf3f41dde,26, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ee-first\\index.js:1:1,0x3edf3f41b90,~
+code-creation,Eval,10,272599,0x3edf3f424a6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\parseurl\\index.js:1:1,0x3edf3f423d8,~
+code-creation,Eval,10,272634,0x3edf3f426de,72, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\parseurl\\index.js:1:1,0x3edf3f42410,~
+tick,0x7ffc50110204,273211,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef5308,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,273594,0x3edf3f43146,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\statuses\\index.js:1:1,0x3edf3f43078,~
+code-creation,Eval,10,273632,0x3edf3f4343e,99, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\statuses\\index.js:1:1,0x3edf3f430b0,~
+code-creation,LazyCompile,10,273926,0x3edf3f438de,143,Module._extensions..json internal/modules/cjs/loader.js:792:39,0x3766c2f77b0,~
+code-creation,LazyCompile,10,274310,0x3edf3f444ce,60,populateStatusesMap C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\statuses\\index.js:60:30,0x3edf3f43178,~
+code-creation,LazyCompile,10,274501,0x3edf3f44ce6,82,forEachCode C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\statuses\\index.js:63:51,0x3edf3f443f8,~
+tick,0x7ffc50110204,275212,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef5312,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b04,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,275648,0x3edf3f45d56,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\unpipe\\index.js:1:1,0x3edf3f45c88,~
+code-creation,Eval,10,275731,0x3edf3f45eae,26, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\unpipe\\index.js:1:1,0x3edf3f45cc0,~
+code-creation,Eval,10,276822,0x3edf3f4690e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\index.js:1:1,0x3edf3f46840,~
+code-creation,Eval,10,276877,0x3edf3f4719e,320, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\index.js:1:1,0x3edf3f46878,~
+tick,0x7ffc50110084,277172,1,0x7ff6c3dfa0c0,6,0x7ff6c457e1f0,0x20f7cc97f11,0x20f7cc97996,0x20f7cc977b5,0x20f7cc975d2,0x20f7cc965d3,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3edf3f471de,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b0e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,278111,0x3edf3f47b2e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\route.js:1:1,0x3edf3f47a60,~
+code-creation,Eval,10,278154,0x3edf3f47ece,193, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\route.js:1:1,0x3edf3f47a98,~
+tick,0x7ffc50110204,279168,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f47ef2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f471de,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b0e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,279343,0x3edf3f49096,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\array-flatten\\array-flatten.js:1:1,0x3edf3f48fc8,~
+code-creation,Eval,10,279374,0x3edf3f4924e,32, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\array-flatten\\array-flatten.js:1:1,0x3edf3f49000,~
+code-creation,Eval,10,280275,0x3edf3f497ae,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\layer.js:1:1,0x3edf3f496e0,~
+code-creation,Eval,10,280312,0x3edf3f49a6e,127, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\layer.js:1:1,0x3edf3f49718,~
+tick,0x7ffc50110204,281255,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f49a84,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f47efc,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f471de,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b0e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,281619,0x3edf3f4a3d6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\path-to-regexp\\index.js:1:1,0x3edf3f4a308,~
+code-creation,Eval,10,281651,0x3edf3f4a50e,26, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\path-to-regexp\\index.js:1:1,0x3edf3f4a340,~
+code-creation,Eval,10,282805,0x3edf3f4acde,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\methods\\index.js:1:1,0x3edf3f4ac10,~
+code-creation,Eval,10,282837,0x3edf3f4ae66,45, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\methods\\index.js:1:1,0x3edf3f4ac48,~
+code-creation,Eval,10,282952,0x3edf3f4b476,6, http.js:1:1,0x3edf3f4b3a8,~
+code-creation,Eval,10,283000,0x3edf3f4b9ae,435, http.js:1:1,0x3edf3f4b3e0,~
+tick,0x7ff6c42a6b32,283198,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3edf3f4b9f1,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3edf3f4ae7c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f47f06,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f471de,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b0e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,283378,0x3edf3f4c5ee,6, _http_agent.js:1:1,0x3edf3f4c520,~
+code-creation,Eval,10,283433,0x3edf3f4cd36,443, _http_agent.js:1:1,0x3edf3f4c558,~
+code-creation,LazyCompile,10,283645,0x3edf3f4d7d6,288,Agent _http_agent.js:50:15,0x3edf3f4c620,~
+code-creation,Eval,10,284155,0x3edf3f4e7ee,6, _http_client.js:1:1,0x3edf3f4e720,~
+code-creation,Eval,10,284227,0x3edf3f4f53e,837, _http_client.js:1:1,0x3edf3f4e758,~
+code-creation,Eval,10,284479,0x3edf3f508c6,6, _http_common.js:1:1,0x3edf3f507f8,~
+code-creation,Eval,10,284536,0x3edf3f50f9e,555, _http_common.js:1:1,0x3edf3f50830,~
+code-creation,Eval,10,284716,0x3edf3f525c6,6, internal/freelist.js:1:1,0x3edf3f524f8,~
+code-creation,Eval,10,284756,0x3edf3f52806,83, internal/freelist.js:1:1,0x3edf3f52530,~
+code-creation,Eval,10,284857,0x3edf3f52c36,6, internal/http.js:1:1,0x3edf3f52b68,~
+code-creation,Eval,10,284888,0x3edf3f52f46,113, internal/http.js:1:1,0x3edf3f52ba0,~
+code-creation,Eval,10,285107,0x3edf3f53546,6, _http_incoming.js:1:1,0x3edf3f53478,~
+tick,0x7ff6c43ceeea,285199,1,0x7ff6c3dc2f70,3,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3edf3f510bc,0xe862e7927b,0xe862e78fe2,0x3edf3f4f64c,0xe862e7927b,0xe862e78fe2,0x3edf3f4b9ff,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3edf3f4ae7c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f47f06,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f471de,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b0e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,285271,0x3edf3f53a5e,242, _http_incoming.js:1:1,0x3edf3f534b0,~
+code-creation,LazyCompile,10,285393,0x3edf3f54036,27,FreeList internal/freelist.js:6:14,0x3edf3f525f8,~
+code-creation,Eval,10,285923,0x3edf3f54cde,6, _http_outgoing.js:1:1,0x3edf3f54c10,~
+code-creation,Eval,10,286018,0x3edf3f55fc6,1193, _http_outgoing.js:1:1,0x3edf3f54c48,~
+code-creation,LazyCompile,10,286240,0x3edf3f578ae,219,from buffer.js:196:28,0x11d41a2eea0,~
+code-creation,LazyCompile,10,286320,0x3edf3f57c56,294,fromString buffer.js:311:20,0x11d41a2ea28,~
+code-creation,LazyCompile,10,286460,0x3edf3f5815e,910,write buffer.js:884:40,0x11d41a2f5d8,~
+code-creation,Eval,10,286986,0x3edf3f5a166,6, _http_server.js:1:1,0x3edf3f5a098,~
+code-creation,Eval,10,287076,0x3edf3f5b58e,1218, _http_server.js:1:1,0x3edf3f5a0d0,~
+tick,0x7ff6c441655d,287176,1,0x7ff6c3dc2f70,6,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3edf3f4ba73,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3edf3f4ae7c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f47f06,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f471de,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b0e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,10,287444,0x3edf3f5c8b6,566,byteLength buffer.js:488:20,0x11d41a2ebe0,~
+code-creation,LazyCompile,10,287596,0x3edf3f5d1e6,39,getCurrentNodeMethods C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\methods\\index.js:29:31,0x3edf3f4ad10,~
+code-creation,LazyCompile,10,287642,0x3edf3f5d376,12,lowerCaseMethod C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\methods\\index.js:30:67,0x3edf3f5d120,~
+code-creation,LazyCompile,10,287702,0x3edf3f5d666,36, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\route.js:192:25,0x3edf3f47d40,~
+code-creation,Eval,10,288800,0x3edf3f5eb86,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\utils-merge\\index.js:1:1,0x3edf3f5eab8,~
+code-creation,Eval,10,288828,0x3edf3f5ec76,16, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\utils-merge\\index.js:1:1,0x3edf3f5eaf0,~
+tick,0x7ff6c4605943,289163,0,0x0,0,0x20f7cc97996,0x20f7cc977b5,0x20f7cc975d2,0x3f18fee53b5,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3edf3f4721a,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b0e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,290210,0x3edf3f6007e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\setprototypeof\\index.js:1:1,0x3edf3f5ffb0,~
+code-creation,Eval,10,290246,0x3edf3f601ee,65, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\setprototypeof\\index.js:1:1,0x3edf3f5ffe8,~
+code-creation,LazyCompile,10,290334,0x3edf3f605e6,30, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\router\\index.js:507:39,0x3edf3f46f70,~
+tick,0x7ffc50110204,291244,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b22,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,291516,0x3edf3f615f6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\middleware\\init.js:1:1,0x3edf3f61528,~
+code-creation,Eval,10,291580,0x3edf3f6171e,26, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\middleware\\init.js:1:1,0x3edf3f61560,~
+code-creation,Eval,10,292522,0x3edf3f61f0e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\middleware\\query.js:1:1,0x3edf3f61e40,~
+code-creation,Eval,10,292613,0x3edf3f62046,46, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\middleware\\query.js:1:1,0x3edf3f61e78,~
+tick,0x7ff6c44793c3,293193,0,0x0,0,0x7ff6c4543c40,0x3f18fee599d,0x3f18fee538b,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3edf3f62064,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b2c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,294080,0x3edf3f63646,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\index.js:1:1,0x3edf3f63578,~
+code-creation,Eval,10,294168,0x3edf3f63756,63, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\index.js:1:1,0x3edf3f635b0,~
+tick,0x7ff6c42d05e6,295144,1,0x7ff6c3e07d10,2,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6375b,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f62064,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b2c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,295203,0x3edf3f63f7e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\stringify.js:1:1,0x3edf3f63eb0,~
+code-creation,Eval,10,295256,0x3edf3f644fe,205, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\stringify.js:1:1,0x3edf3f63ee8,~
+code-creation,Eval,10,295987,0x3edf3f64e0e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\utils.js:1:1,0x3edf3f64d40,~
+code-creation,Eval,10,296032,0x3edf3f65446,173, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\utils.js:1:1,0x3edf3f64d78,~
+code-creation,Eval,10,296061,0x3edf3f6560e,98, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\utils.js:6:26,0x3edf3f64e40,~
+code-creation,Eval,10,297066,0x3edf3f65e86,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\formats.js:1:1,0x3edf3f65db8,~
+tick,0x7ff6c3d0d142,297224,1,0x7ff6c3e07d10,3,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f64512,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6375b,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f62064,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b2c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,297291,0x3edf3f660b6,71, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\formats.js:1:1,0x3edf3f65df0,~
+code-creation,Eval,10,298203,0x3edf3f66a1e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\parse.js:1:1,0x3edf3f66950,~
+code-creation,Eval,10,298242,0x3edf3f66e6e,103, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\qs\\lib\\parse.js:1:1,0x3edf3f66988,~
+tick,0x7ff6c45ff1da,299192,0,0x0,0,0x20f7cc9d961,0x20f7cc9d59d,0x20f7cc9d3b3,0x20f7cc9b886,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b4a,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,299331,0x3edf3f67856,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\view.js:1:1,0x3edf3f67788,~
+code-creation,Eval,10,299373,0x3edf3f67b2e,154, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\view.js:1:1,0x3edf3f677c0,~
+code-creation,Eval,10,300467,0x3edf3f686e6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\utils.js:1:1,0x3edf3f68618,~
+code-creation,Eval,10,300519,0x3edf3f68d16,326, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\utils.js:1:1,0x3edf3f68650,~
+tick,0x7ffc50110204,301190,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d3c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,301523,0x3edf3f69bfe,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\safe-buffer\\index.js:1:1,0x3edf3f69b30,~
+code-creation,Eval,10,301567,0x3edf3f69f06,144, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\safe-buffer\\index.js:1:1,0x3edf3f69b68,~
+code-creation,LazyCompile,10,301630,0x3edf3f6a2d6,52,copyProps C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\safe-buffer\\index.js:6:20,0x3edf3f69c30,~
+code-creation,Eval,10,302729,0x3edf3f6b20e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\content-disposition\\index.js:1:1,0x3edf3f6b140,~
+code-creation,Eval,10,302770,0x3edf3f6b746,190, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\content-disposition\\index.js:1:1,0x3edf3f6b178,~
+tick,0x7ffc50110204,303202,1,0x7ff6c3df9520,6,0x7ff6c457e1f0,0x3f18fee595a,0x3f18fee538b,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d56,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,303875,0x3edf3f6c57e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\content-type\\index.js:1:1,0x3edf3f6c4b0,~
+code-creation,Eval,10,303910,0x3edf3f6c82e,86, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\content-type\\index.js:1:1,0x3edf3f6c4e8,~
+tick,0x7ffc5010f984,305198,1,0x7ff6c3df7e70,6,0x7ff6c457e1f0,0x20f7cc9d182,0x20f7cc9b842,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,305845,0x3edf3f6e3c6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\send\\index.js:1:1,0x3edf3f6e2f8,~
+code-creation,Eval,10,305927,0x3edf3f6f5de,992, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\send\\index.js:1:1,0x3edf3f6e330,~
+code-creation,Eval,10,306997,0x3edf3f70b4e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:1:1,0x3edf3f70a80,~
+code-creation,Eval,10,307040,0x3edf3f70f66,162, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:1:1,0x3edf3f70ab8,~
+tick,0x7ff6c435e53f,307148,0,0x0,0,0x7ff6c4637973,0x20f7cc964b6,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3edf3f70f9a,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f642,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,308550,0x3edf3f7221e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\inherits\\inherits.js:1:1,0x3edf3f72150,~
+code-creation,Eval,10,308587,0x3edf3f722e6,64, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\inherits\\inherits.js:1:1,0x3edf3f72188,~
+tick,0x7ff6c445ef55,309139,0,0x0,0,0x7ff6c41f9310,0xb81b044904,0x3766c2eeb92,0x20f7cc93bf3,0x20f7cc9a70b,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f70fcc,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f642,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,309502,0x3edf3f72996,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\toidentifier\\index.js:1:1,0x3edf3f728c8,~
+code-creation,Eval,10,309532,0x3edf3f72aae,15, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\toidentifier\\index.js:1:1,0x3edf3f72900,~
+code-creation,LazyCompile,10,309583,0x3edf3f72c7e,24,createHttpErrorConstructor C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:117:37,0x3edf3f70c30,~
+code-creation,LazyCompile,10,309672,0x3edf3f72ece,169,inherits util.js:140:18,0x3766c2fc8d8,~
+code-creation,LazyCompile,10,309758,0x3edf3f734c6,73,populateConstructorExports C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:242:37,0x3edf3f70e08,~
+code-creation,LazyCompile,10,309816,0x3edf3f73696,134,forEachCode C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:243:38,0x3edf3f733e0,~
+code-creation,LazyCompile,10,309862,0x3edf3f73986,77,toIdentifier C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\toidentifier\\index.js:22:23,0x3edf3f729c8,~
+code-creation,LazyCompile,10,309907,0x3edf3f73ba6,53, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\toidentifier\\index.js:25:19,0x3edf3f73898,~
+code-creation,RegExp,4,310142,0xb81b045740,820,[^ _0-9a-z]
+code-creation,LazyCompile,10,310185,0x3edf3f73e7e,45,codeClass C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:37:20,0x3edf3f70b80,~
+code-creation,LazyCompile,10,310328,0x3edf3f7473e,130,createClientErrorConstructor C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:132:39,0x3edf3f70cb0,~
+code-creation,RegExp,4,310409,0xb81b045ac0,834,Error$
+code-creation,LazyCompile,10,310482,0x3edf3f74afe,66,nameFunc C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:228:19,0x3edf3f70db0,~
+code-creation,LazyCompile,10,311098,0x3edf3f76136,130,createServerErrorConstructor C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\http-errors\\index.js:180:39,0x3edf3f70d30,~
+tick,0x7ff6c451a15a,311202,0,0x0,0,0x7ff6c424f050,0x3edf3f736f9,0x7ff6c46a4974,0x3edf3f734e0,0x3edf3f71001,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f642,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,311523,0x3edf3f76cf6,8, :1:1,0x3edf3f76c28,~
+code-creation,Eval,10,311549,0x3edf3f76d96,50, :1:11,0x3edf3f76c60,~
+tick,0x7ffc50110204,313183,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f674,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,313709,0x3edf3f778be,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\destroy\\index.js:1:1,0x3edf3f777f0,~
+code-creation,Eval,10,313795,0x3edf3f77a8e,58, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\destroy\\index.js:1:1,0x3edf3f77828,~
+code-creation,LazyCompile,10,313851,0x3edf3f77d16,13,get ReadStream fs.js:1831:17,0x20f7cc81a50,~
+code-creation,LazyCompile,10,313909,0x3edf3f77f16,316,lazyLoadStreams fs.js:1734:25,0x20f7cc815c0,~
+code-creation,Eval,10,314190,0x3edf3f78696,6, internal/fs/streams.js:1:1,0x3edf3f785c8,~
+code-creation,Eval,10,314258,0x3edf3f790ae,785, internal/fs/streams.js:1:1,0x3edf3f78600,~
+tick,0x7ffc5010f944,315180,1,0x7ff6c3df9b60,6,0x7ff6c457e1f0,0x20f7cc96f36,0x20f7cc97783,0x20f7cc975d2,0x20f7cc965d3,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f692,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,315912,0x3edf3f7a81e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\etag\\index.js:1:1,0x3edf3f7a750,~
+code-creation,Eval,10,315947,0x3edf3f7aa66,81, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\etag\\index.js:1:1,0x3edf3f7a788,~
+code-creation,Eval,10,316162,0x3edf3f7bb96,6, crypto.js:1:1,0x3edf3f7bac8,~
+code-creation,Eval,10,316267,0x3edf3f7cb46,1536, crypto.js:1:1,0x3edf3f7bb00,~
+code-creation,LazyCompile,10,316373,0x3edf3f7dfbe,21,assertCrypto internal/util.js:95:22,0x11d41a0a4e8,~
+tick,0x7ff6c3f09d38,317179,1,0x7ff6c3e207d0,6,0x7ff6c457e1f0,0xe862e6c004,0x3edf3f7cc81,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3edf3f7aa8e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f692,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,318463,0x5ef604cb36,6, internal/crypto/random.js:1:1,0x5ef604ca68,~
+code-creation,Eval,10,318510,0x5ef604cf1e,328, internal/crypto/random.js:1:1,0x5ef604caa0,~
+code-creation,Eval,10,318687,0x5ef604d7c6,6, internal/crypto/pbkdf2.js:1:1,0x5ef604d6f8,~
+code-creation,Eval,10,318727,0x5ef604db3e,331, internal/crypto/pbkdf2.js:1:1,0x5ef604d730,~
+code-creation,Eval,10,318872,0x5ef604e33e,6, internal/crypto/util.js:1:1,0x5ef604e270,~
+code-creation,Eval,10,318917,0x5ef604e8d6,439, internal/crypto/util.js:1:1,0x5ef604e2a8,~
+code-creation,LazyCompile,10,319002,0x5ef604f05e,21,cachedResult internal/util.js:178:22,0x11d41a0a6a0,~
+tick,0x7ff6c42d15ae,319187,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0xe862e78fe2,0x3edf3f7cce4,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3edf3f7aa8e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f692,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,319266,0x5ef604f4f6,6, internal/crypto/scrypt.js:1:1,0x5ef604f428,~
+code-creation,Eval,10,319307,0x5ef604f83e,275, internal/crypto/scrypt.js:1:1,0x5ef604f460,~
+code-creation,Eval,10,319586,0x5ef6050696,6, internal/crypto/keygen.js:1:1,0x5ef60505c8,~
+code-creation,Eval,10,319635,0x5ef6050b66,474, internal/crypto/keygen.js:1:1,0x5ef6050600,~
+code-creation,Eval,10,319933,0x5ef6051a76,6, internal/crypto/keys.js:1:1,0x5ef60519a8,~
+code-creation,Eval,10,320022,0x5ef60529de,1027, internal/crypto/keys.js:1:1,0x5ef60519e0,~
+code-creation,Eval,10,320391,0x5ef6053e4e,6, internal/crypto/diffiehellman.js:1:1,0x5ef6053d80,~
+code-creation,Eval,10,320456,0x5ef605464e,810, internal/crypto/diffiehellman.js:1:1,0x5ef6053db8,~
+code-creation,Eval,10,320787,0x5ef605589e,6, internal/crypto/cipher.js:1:1,0x5ef60557d0,~
+code-creation,Eval,10,320858,0x5ef60562c6,976, internal/crypto/cipher.js:1:1,0x5ef6055808,~
+code-creation,Eval,10,321002,0x5ef605711e,6, internal/streams/lazy_transform.js:1:1,0x5ef6057050,~
+code-creation,Eval,10,321042,0x5ef60574fe,295, internal/streams/lazy_transform.js:1:1,0x5ef6057088,~
+tick,0x7ff6c41b9e3e,321177,0,0x0,0,0x7ff6c422e9e0,0x5ef60575ab,0xe862e7927b,0xe862e78fe2,0x5ef6056488,0xe862e7927b,0xe862e78fe2,0x3edf3f7cd72,0xe862e7927b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3edf3f7aa8e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f692,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,10,321247,0x5ef6057d16,15,makeGetter internal/streams/lazy_transform.js:24:20,0x5ef60571a8,~
+code-creation,LazyCompile,10,321294,0x5ef6057ebe,15,makeSetter internal/streams/lazy_transform.js:37:20,0x5ef6057228,~
+code-creation,LazyCompile,10,321385,0x5ef60580ce,23,rsaFunctionFor internal/crypto/cipher.js:46:24,0x5ef60558d0,~
+code-creation,LazyCompile,10,321476,0x5ef60584ae,192,addCipherPrototypeFunctions internal/crypto/cipher.js:230:37,0x5ef6055c40,~
+code-creation,Eval,10,321718,0x5ef60590a6,6, internal/crypto/sig.js:1:1,0x5ef6058fd8,~
+code-creation,Eval,10,321770,0x5ef60596b6,620, internal/crypto/sig.js:1:1,0x5ef6059010,~
+code-creation,Eval,10,321991,0x5ef605a326,6, internal/crypto/hash.js:1:1,0x5ef605a258,~
+code-creation,Eval,10,322049,0x5ef605a7ae,674, internal/crypto/hash.js:1:1,0x5ef605a290,~
+code-creation,Eval,10,322210,0x5ef605b426,6, internal/crypto/certificate.js:1:1,0x5ef605b358,~
+code-creation,Eval,10,322247,0x5ef605b6c6,280, internal/crypto/certificate.js:1:1,0x5ef605b390,~
+tick,0x7ffc50110204,323147,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f69c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,323496,0x5ef605c3fe,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\fresh\\index.js:1:1,0x5ef605c330,~
+code-creation,Eval,10,323527,0x5ef605c5be,38, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\fresh\\index.js:1:1,0x5ef605c368,~
+code-creation,Eval,10,324558,0x5ef605d22e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime\\mime.js:1:1,0x5ef605d160,~
+code-creation,Eval,10,324602,0x5ef605d5be,171, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime\\mime.js:1:1,0x5ef605d198,~
+code-creation,LazyCompile,10,324677,0x5ef605db8e,49,Mime C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime\\mime.js:4:14,0x5ef605d260,~
+tick,0x7ff6c4960374,325187,0,0x0,4,0x7ff6c424f170,0x20f7cc971f3,0x20f7cc96f0b,0x20f7cc9651a,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x5ef605d629,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f6b0,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c430740c,327185,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef605d629,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f6b0,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c4309387,329146,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef605d629,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f6b0,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c4306f27,331171,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef605d629,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f6b0,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,0,332550,0xb81b045e60,5461,resolve path.js:127:10,0x3766c2d6470,*
+tick,0x7ff6c41bbaad,333137,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef605d629,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f6b0,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,10,333326,0x5ef606eace,256,Mime.define C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime\\mime.js:21:34,0x5ef605d2b8,~
+code-creation,LazyCompile,10,334304,0x5ef606f106,59,Mime.lookup C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime\\mime.js:69:33,0x5ef605d390,~
+code-creation,RegExp,4,334375,0xb81b047400,949,^.*[\\.\\/\\\\]
+tick,0x7ffc5010f984,335115,1,0x7ff6c3dfa0c0,6,0x7ff6c457e1f0,0x20f7cc97f11,0x20f7cc97996,0x20f7cc977b5,0x20f7cc975d2,0x3f18fee53e7,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f6ba,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,335625,0x5ef606fa8e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\send\\node_modules\\ms\\index.js:1:1,0x5ef606f9c0,~
+code-creation,Eval,10,335661,0x5ef606fd1e,85, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\send\\node_modules\\ms\\index.js:1:1,0x5ef606f9f8,~
+tick,0x7ffc50110204,337191,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f6f6ce,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d7e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,337917,0x5ef607078e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\range-parser\\index.js:1:1,0x5ef60706c0,~
+code-creation,Eval,10,337949,0x5ef6070a66,50, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\range-parser\\index.js:1:1,0x5ef60706f8,~
+tick,0x7ffc50110204,339138,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d98,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,339496,0x5ef607212e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\proxy-addr\\index.js:1:1,0x5ef6072060,~
+code-creation,Eval,10,339541,0x5ef60726a6,142, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\proxy-addr\\index.js:1:1,0x5ef6072098,~
+code-creation,Eval,10,340474,0x5ef6072ebe,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\forwarded\\index.js:1:1,0x5ef6072df0,~
+code-creation,Eval,10,340506,0x5ef6073016,26, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\forwarded\\index.js:1:1,0x5ef6072e28,~
+tick,0x7ffc50110204,341126,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef6072714,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3edf3f68d98,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,341915,0x5ef60745be,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ipaddr.js\\lib\\ipaddr.js:1:1,0x5ef60744f0,~
+code-creation,Eval,10,341944,0x5ef6074696,29, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ipaddr.js\\lib\\ipaddr.js:1:1,0x5ef6074528,~
+code-creation,Eval,10,342016,0x5ef60751de,773, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ipaddr.js\\lib\\ipaddr.js:1:10,0x5ef60745f0,~
+code-creation,Eval,10,342092,0x5ef6075fbe,549, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ipaddr.js\\lib\\ipaddr.js:199:26,0x5ef6074858,~
+code-creation,Eval,10,342145,0x5ef6076c96,768, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ipaddr.js\\lib\\ipaddr.js:56:26,0x5ef60747a0,~
+code-creation,LazyCompile,10,342252,0x5ef60781a6,108,IPv4 C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ipaddr.js\\lib\\ipaddr.js:57:18,0x5ef60762f0,~
+code-creation,LazyCompile,10,342474,0x5ef6079aae,214,IPv6 C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\ipaddr.js\\lib\\ipaddr.js:200:18,0x5ef6075678,~
+code-creation,Eval,10,343027,0x5ef607b616,6, querystring.js:1:1,0x5ef607b548,~
+code-creation,Eval,10,343075,0x5ef607bb2e,249, querystring.js:1:1,0x5ef607b580,~
+tick,0x7ffc5007deb3,343164,1,0x7ff6c3dc2f70,6,0x7ff6c457e1f0,0xe862e7925b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3edf3f68dac,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fef3b5e,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2c6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,10,343259,0x5ef607c1b6,15,createETagGenerator C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\utils.js:274:30,0x3edf3f68770,~
+code-creation,Eval,10,343357,0x5ef607c47e,8, :1:1,0x5ef607c3b0,~
+code-creation,Eval,10,343379,0x5ef607c51e,50, :1:11,0x5ef607c3e8,~
+code-creation,Eval,10,343473,0x5ef607c8d6,8, :1:1,0x5ef607c808,~
+code-creation,Eval,10,343493,0x5ef607c976,50, :1:11,0x5ef607c840,~
+code-creation,LazyCompile,10,343739,0x5ef607d5b6,30, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\application.js:472:25,0x3f18fef36f8,~
+code-creation,Eval,10,345028,0x5ef607e816,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\request.js:1:1,0x5ef607e748,~
+tick,0x7ff6c41bb9b3,345163,1,0x7ff6c3e07d10,3,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,345210,0x5ef607f176,538, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\request.js:1:1,0x5ef607e780,~
+code-creation,Eval,10,346089,0x3cdc643ef8e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\accepts\\index.js:1:1,0x3cdc643eec0,~
+code-creation,Eval,10,346133,0x3cdc643f32e,228, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\accepts\\index.js:1:1,0x3cdc643eef8,~
+code-creation,Eval,10,346980,0x3cdc643fd86,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\negotiator\\index.js:1:1,0x3cdc643fcb8,~
+code-creation,Eval,10,347030,0x152ab81556,431, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\negotiator\\index.js:1:1,0x3cdc643fcf0,~
+tick,0x7ffc50084ebf,347117,1,0x7ff6c3e07d10,5,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3cdc643f34a,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f186,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,347960,0x152ab8235e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime-types\\index.js:1:1,0x152ab82290,~
+code-creation,Eval,10,348004,0x152ab82696,221, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime-types\\index.js:1:1,0x152ab822c8,~
+code-creation,Eval,10,348948,0x152ab84b4e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime-db\\index.js:1:1,0x152ab84a80,~
+code-creation,Eval,10,348974,0x152ab84be6,15, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime-db\\index.js:1:1,0x152ab84ab8,~
+tick,0xb81b0468e0,349137,0,0x0,0,0x20f7cc97d26,0x20f7cc97996,0x20f7cc96574,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x152ab84beb,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab826c2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3cdc643f354,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f186,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c41bbaa8,351174,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab84beb,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab826c2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3cdc643f354,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f186,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c430d957,353167,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab84beb,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab826c2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3cdc643f354,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f186,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c43073c6,355134,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab84beb,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab826c2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3cdc643f354,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f186,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c43073c6,357157,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab84beb,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab826c2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3cdc643f354,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f186,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+tick,0x7ff6c41ab470,359126,0,0x0,0,0x7ff6c4543c40,0x3edf3f43936,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab84beb,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152ab826c2,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3cdc643f354,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f186,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,10,360084,0x152abbd96e,76,populateMaps C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime-types\\index.js:154:23,0x152ab824f0,~
+code-creation,LazyCompile,10,360361,0x152abbdc0e,231,forEachMimeType C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\mime-types\\index.js:158:52,0x152abbd878,~
+tick,0x7ffc50110204,361172,1,0x7ff6c3df9520,6,0x7ff6c457e1f0,0x3f18fee595a,0x3f18fee538b,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x5ef607f1b4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,362193,0x152abbe92e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\type-is\\index.js:1:1,0x152abbe860,~
+code-creation,Eval,10,362229,0x152abbec96,124, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\type-is\\index.js:1:1,0x152abbe898,~
+tick,0x7ff6c42b8f60,363096,1,0x7ff6c3e07d10,2,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x152abbecca,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x5ef607f1b4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2e4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,363170,0x152abbf7a6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\media-typer\\index.js:1:1,0x152abbf6d8,~
+code-creation,Eval,10,363209,0x152abbfa66,98, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\media-typer\\index.js:1:1,0x152abbf710,~
+code-creation,Eval,10,363851,0x3da2ea88e56,8, :1:1,0x3da2ea88d88,~
+code-creation,Eval,10,363875,0x3da2ea88ef6,50, :1:11,0x3da2ea88dc0,~
+code-creation,Eval,10,363955,0x3da2ea8926e,8, :1:1,0x3da2ea891a0,~
+code-creation,Eval,10,363975,0x3da2ea8930e,50, :1:11,0x3da2ea891d8,~
+code-creation,LazyCompile,10,364065,0x3da2ea8967e,37,defineGetter C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\request.js:519:22,0x5ef607e848,~
+tick,0x7ff6c436b6c6,365153,1,0x7ff6c3e07d10,2,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2ee,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,365196,0x3da2ea8a04e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\response.js:1:1,0x3da2ea89f80,~
+code-creation,Eval,10,365278,0x3da2ea8acde,524, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\response.js:1:1,0x3da2ea89fb8,~
+code-creation,Eval,10,366672,0x3da2ea8ca76,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\cookie-signature\\index.js:1:1,0x3da2ea8c9a8,~
+code-creation,Eval,10,366706,0x3da2ea8cc3e,52, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\cookie-signature\\index.js:1:1,0x3da2ea8c9e0,~
+tick,0x7ffc50110204,367159,1,0x7ff6c3dfa0c0,6,0x7ff6c457e1f0,0x20f7cc97f11,0x20f7cc97996,0x20f7cc977b5,0x20f7cc975d2,0x3f18fee53b5,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3da2ea8adb8,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2ee,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,367944,0x3da2ea8d50e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\cookie\\index.js:1:1,0x3da2ea8d440,~
+code-creation,Eval,10,367978,0x3da2ea8d6ee,60, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\cookie\\index.js:1:1,0x3da2ea8d478,~
+code-creation,Eval,10,368877,0x3da2ea8de96,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\vary\\index.js:1:1,0x3da2ea8ddc8,~
+code-creation,Eval,10,368912,0x3da2ea8e05e,50, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\vary\\index.js:1:1,0x3da2ea8de00,~
+code-creation,Eval,10,369050,0x3da2ea8e63e,8, :1:1,0x3da2ea8e570,~
+tick,0x7ff6c4b46b3b,369133,0,0x0,3,0x7ff6c424fc30,0x3f18fef154f,0x3da2ea8ae66,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb2ee,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,369179,0x3da2ea8e6de,50, :1:11,0x3da2ea8e5a8,~
+code-creation,LazyCompile,10,369298,0x3da2ea8efb6,16,get C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\index.js:122:23,0x3f18fef1dd8,~
+code-creation,LazyCompile,10,369358,0x3da2ea8f1b6,127,loadParser C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\index.js:132:21,0x3f18feebf18,~
+code-creation,Eval,10,370386,0x3da2ea8fa16,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\json.js:1:1,0x3da2ea8f948,~
+code-creation,Eval,10,370425,0x3da2ea8fd86,126, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\json.js:1:1,0x3da2ea8f980,~
+tick,0x7ffc50110204,371137,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8fdb4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f1f0,0x3da2ea8efc1,0x3f18feeb334,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,371465,0x3da2ea9080e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\bytes\\index.js:1:1,0x3da2ea90740,~
+code-creation,Eval,10,371504,0x3da2ea90a8e,146, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\bytes\\index.js:1:1,0x3da2ea90778,~
+tick,0x7ff6c42df8f7,373138,1,0x7ff6c3e07d10,2,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8fde6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f1f0,0x3da2ea8efc1,0x3f18feeb334,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,373189,0x3da2ea91b0e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\read.js:1:1,0x3da2ea91a40,~
+code-creation,Eval,10,373229,0x3da2ea91cde,76, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\read.js:1:1,0x3da2ea91a78,~
+code-creation,Eval,10,374836,0x3da2ea92866,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\raw-body\\index.js:1:1,0x3da2ea92798,~
+code-creation,Eval,10,374872,0x3da2ea92b66,84, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\raw-body\\index.js:1:1,0x3da2ea927d0,~
+tick,0x7ff6c42f3784,375153,0,0x0,0,0x7ff6c41f9310,0x7ff6c4677c8c,0x20f7cc97213,0x20f7cc96f0b,0x20f7cc97783,0x20f7cc975d2,0x20f7cc965d3,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3da2ea92b92,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea91cfe,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8fde6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f1f0,0x3da2ea8efc1,0x3f18feeb334,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,376288,0x3da2ea93f8e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\index.js:1:1,0x3da2ea93ec0,~
+code-creation,Eval,10,376346,0x3da2ea943be,380, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\index.js:1:1,0x3da2ea93ef8,~
+code-creation,LazyCompile,0,377046,0xb81b047800,3024,Module._nodeModulePaths internal/modules/cjs/loader.js:381:37,0x3766c2f7498,*
+tick,0x7ffc5010f864,377141,0,0x0,4,0x7ff6c4235750,0x7ff6c4677bd2,0x20f7cc99aa7,0x20f7cc97dff,0x20f7cc97996,0x20f7cc977b5,0x3f18fee53d3,0x20f7cc96616,0x20f7cc954d0,0x20f7cc94512,0x20f7cc94184,0x20f7cca1519,0x3da2ea943d0,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea92b9c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea91cfe,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8fde6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f1f0,0x3da2ea8efc1,0x3f18feeb334,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,377648,0x3da2ea95d56,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\safer-buffer\\safer.js:1:1,0x3da2ea95c88,~
+code-creation,Eval,10,377715,0x3da2ea95f7e,375, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\safer-buffer\\safer.js:1:1,0x3da2ea95cc0,~
+code-creation,LazyCompile,10,377795,0x3da2ea965e6,6,get buffer.js:1104:8,0x11d41a2f840,~
+code-creation,Eval,10,378474,0x3da2ea9731e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\bom-handling.js:1:1,0x3da2ea97250,~
+code-creation,Eval,10,378509,0x3da2ea9761e,92, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\bom-handling.js:1:1,0x3da2ea97288,~
+tick,0x7ffc50110204,379180,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea944f5,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea92b9c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea91cfe,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8fde6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f1f0,0x3da2ea8efc1,0x3f18feeb334,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,379558,0x3da2ea97f7e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\streams.js:1:1,0x3da2ea97eb0,~
+code-creation,Eval,10,379609,0x3da2ea9850e,286, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\streams.js:1:1,0x3da2ea97ee8,~
+code-creation,LazyCompile,10,379724,0x3da2ea98f86,93,module.exports C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\streams.js:8:26,0x3da2ea98060,~
+code-creation,Eval,10,380503,0x3da2ea995ee,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\extend-node.js:1:1,0x3da2ea99520,~
+code-creation,Eval,10,380534,0x3da2ea99776,40, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\extend-node.js:1:1,0x3da2ea99558,~
+code-creation,LazyCompile,10,380602,0x3da2ea99aa6,84,module.exports C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\iconv-lite\\lib\\extend-node.js:7:27,0x3da2ea99620,~
+tick,0x7ff6c45addad,381144,1,0x7ff6c3dc2f70,2,0x7ff6c457e1f0,0xe862e7925b,0x20f7cca17dd,0x20f7cc9457f,0x20f7cc94184,0x20f7cca1519,0x3da2ea91d1c,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8fde6,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f1f0,0x3da2ea8efc1,0x3f18feeb334,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,381584,0x3da2ea9b77e,6, zlib.js:1:1,0x3da2ea9b6b0,~
+code-creation,Eval,10,381762,0x3da2ea9d2ce,3696, zlib.js:1:1,0x3da2ea9b6e8,~
+code-creation,LazyCompile,10,382115,0x3da2eaa164e,79,alloc buffer.js:258:30,0x11d41a2efa8,~
+code-creation,LazyCompile,10,382261,0x3da2eaa1b0e,33, zlib.js:759:64,0x3da2ea9c598,~
+code-creation,LazyCompile,10,382403,0x3da2eaa1e26,24,createConvenienceMethod zlib.js:743:33,0x3da2ea9bf10,~
+code-creation,LazyCompile,10,382489,0x3da2eaa204e,27,createProperty zlib.js:823:24,0x3da2ea9c0a0,~
+tick,0x7ffc50110204,383157,1,0x7ff6c3dfc7d0,6,0x7ff6c457e1f0,0x20f7cc9c313,0x20f7cc9b837,0x20f7cc9b5bf,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f200,0x3da2ea8efc1,0x3f18feeb350,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,383596,0x3da2eaa293e,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\raw.js:1:1,0x3da2eaa2870,~
+code-creation,Eval,10,383642,0x3da2eaa2b16,76, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\raw.js:1:1,0x3da2eaa28a8,~
+code-creation,Eval,10,384600,0x3da2eaa33ee,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\serve-static\\index.js:1:1,0x3da2eaa3320,~
+code-creation,Eval,10,384654,0x3da2eaa374e,128, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\serve-static\\index.js:1:1,0x3da2eaa3358,~
+tick,0x7ff6c46dc734,385143,0,0x0,0,0x20f7cc94140,0x20f7cca1519,0x3da2eaa37a4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feeb360,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,386037,0x3da2eaa47e6,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\text.js:1:1,0x3da2eaa4718,~
+code-creation,Eval,10,386073,0x3da2eaa4a26,92, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\text.js:1:1,0x3da2eaa4750,~
+tick,0x7ff6c42a85d4,387095,1,0x7ff6c3e07d10,2,0x7ff6c457e1f0,0x20f7cca032c,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3da2ea8f220,0x3da2ea8efc1,0x3f18feeb378,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18feea763,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x20f7cc94184,0x20f7cca1519,0x3f18fee9e94,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,Eval,10,387140,0x3da2eaa5136,6, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\urlencoded.js:1:1,0x3da2eaa5068,~
+code-creation,Eval,10,387187,0x3da2eaa556e,199, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\body-parser\\lib\\types\\urlencoded.js:1:1,0x3da2eaa50a0,~
+code-creation,LazyCompile,10,387568,0x3da2eaa5d86,52, C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\express.js:109:37,0x3f18feeb0c0,~
+code-creation,LazyCompile,10,387699,0x3da2eaa6356,193,createApplication C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\express.js:37:27,0x3f18feeb040,~
+code-creation,LazyCompile,10,387765,0x3da2eaa67be,109,merge C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\merge-descriptors\\index.js:34:15,0x3f18fef25e8,~
+code-creation,LazyCompile,10,387824,0x3da2eaa6a26,82,forEachOwnPropertyName C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\merge-descriptors\\index.js:48:74,0x3da2eaa66d0,~
+code-creation,LazyCompile,10,388659,0x3da2eaa6d2e,28,init C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\application.js:57:25,0x3f18fef3188,~
+code-creation,LazyCompile,10,388774,0x3da2eaa729e,373,defaultConfiguration C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\application.js:70:57,0x3f18fef31e0,~
+code-creation,LazyCompile,10,388828,0x3da2eaa78be,17,enable C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\application.js:452:29,0x3f18fef3648,~
+code-creation,LazyCompile,10,388893,0x3da2eaa7b26,205,set C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\application.js:352:23,0x3f18fef34e8,~
+code-creation,LazyCompile,10,388989,0x3da2eaa800e,380,debug C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\debug\\src\\debug.js:65:17,0x3f18fefe910,~
+tick,0x7ff6c42a8221,389097,0,0x0,2,0x7ff6c424f050,0x3da2eaa7b8a,0x3da2eaa72d1,0x3da2eaa6d44,0x3da2eaa6410,0x3f18fee9ea4,0x20f7cca04b6,0x20f7cc9b5d9,0x20f7cc9a72f,0x20f7cc945d8,0x3f18fee96d0,0x3766c2eb13a
+code-creation,LazyCompile,10,389127,0x3da2eaa861e,106,exports.compileETag C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\utils.js:151:31,0x3edf3f689a8,~
+code-creation,LazyCompile,10,389204,0x3da2eaa8896,104,compileQueryParser C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\utils.js:185:57,0x3edf3f68a00,~
+code-creation,LazyCompile,10,389267,0x3da2eaa8b86,100,exports.compileTrust C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\express\\lib\\utils.js:220:32,0x3edf3f68a58,~
+code-creation,LazyCompile,10,389346,0x3da2eaa8ed6,241,compile C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\proxy-addr\\index.js:84:18,0x5ef60721b8,~
+code-creation,LazyCompile,10,389397,0x3da2eaa92ee,65,compileRangeSubnets C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\proxy-addr\\index.js:122:30,0x5ef6072210,~
+code-creation,LazyCompile,10,389444,0x3da2eaa950e,49,compileTrust C:\\Users\\booth02-mgr2\\Desktop\\node-trips\\07-flamegraphs\\node_modules\\proxy-addr\\index.js:139:23,0x5ef6072268,~
+code-creation,LazyCompile,10,389668,0x3da2eaa97ce,331, internal/process/execution.js:126:10,0x3766c2e97d0,~
+code-creation,LazyCompile,10,389704,0x3da2eaa9c66,21,clearDefaultTriggerAsyncId internal/async_hooks.js:287:36,0x11d41a3fef0,~
+code-creation,LazyCompile,10,389819,0x3da2eaaadb6,48,beforeInspector internal/errors.js:626:18,0x11d41a00840,~
+code-creation,LazyCompile,10,389965,0x3da2eaab13e,146,afterInspector internal/errors.js:640:17,0x11d41a00898,~
+code-creation,LazyCompile,10,390009,0x3da2eaab40e,34,lazyInternalUtilInspect internal/errors.js:62:33,0xe862e7fae8,~
+code-creation,LazyCompile,10,390144,0x3da2eaab59e,110,hasColors internal/tty.js:200:19,0x3f18fef9630,~
+code-creation,LazyCompile,10,390307,0x3da2eaabc5e,836,getColorDepth internal/tty.js:93:23,0x3f18fef95d8,~
+code-creation,Eval,10,390554,0x3da2eaacda6,6, os.js:1:1,0x3da2eaaccd8,~
+code-creation,Eval,10,390645,0x3da2eaadb56,936, os.js:1:1,0x3da2eaacd10,~
+code-creation,LazyCompile,10,390820,0x3da2eaaf656,29,getCheckedFunction os.js:56:28,0x3da2eaacdd8,~
+code-creation,LazyCompile,10,390986,0x3da2eaafb7e,63,checkError os.js:57:45,0x3da2eaaf590,~
+tick,0x7ff6c4144bb3,391150,0,0x0,0,0x7ff6c43fea60,0x3da2eaabd45,0x3da2eaab601,0x3da2eaab1ac
+code-creation,LazyCompile,10,391260,0x3da2eaaff96,528,inspect internal/util/inspect.js:172:17,0x11d41a26ca0,~
+code-creation,LazyCompile,10,391435,0x3da2eab08ee,357,formatValue internal/util/inspect.js:517:21,0x11d41a27198,~
+code-creation,LazyCompile,10,391809,0x3da2eab1336,2795,formatRaw internal/util/inspect.js:570:19,0x11d41a271f0,~
+code-creation,LazyCompile,10,391885,0x3da2eab2eae,181,getConstructorName internal/util/inspect.js:354:28,0x11d41a26eb0,~
+code-creation,LazyCompile,10,391975,0x3da2eab32b6,285,getKeys internal/util/inspect.js:396:17,0x11d41a26f60,~
+code-creation,LazyCompile,10,392022,0x3da2eab36ee,20,isError internal/util.js:29:17,0x11d41a0a3b8,~
+code-creation,LazyCompile,10,392184,0x3da2eab3a86,982,formatError internal/util/inspect.js:871:21,0x11d41a27350,~
+code-creation,LazyCompile,10,392249,0x3da2eab466e,114,getPrefix internal/util/inspect.js:381:19,0x11d41a26f08,~
+code-creation,RegExp,4,392378,0xb81b048420,2026,^    at (?:[^/\\\\(]+ \\(|)((?<![/\\\\]).+)\\.js:\\d+:\\d+\\)?$
+code-creation,LazyCompile,10,392422,0x3da2eab48e6,23,NativeModule.exists internal/bootstrap/loaders.js:192:31,0xe862e6b0e0,~
+code-creation,RegExp,4,392495,0xb81b048c60,1297,[/\\\\]node_modules[/\\\\](.+?)(?=[/\\\\])
+code-creation,LazyCompile,10,392560,0x3da2eab4ba6,93,stylizeWithColor internal/util/inspect.js:336:26,0x11d41a26da8,~
+tick,0x7ffc5010f844,393160,0,0x0,0
