@@ -1,0 +1,25 @@
+{
+  "name": "miapp",
+  "version": "1.0.0",
+  "description": "compilación sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.5.1",
+    "typescript": "^2.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}

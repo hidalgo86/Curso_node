@@ -1,0 +1,10 @@
+body {
+  font-size: 24px;
+  font-family: Arial, sans-serif; }
+  body .test {
+    background-color: #fff; }
+
+.other {
+  background-color: #ff0000; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5zY3NzIiwic3R5bGVzX2dsb2JhbC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLElBQUksQ0FBQTtFQUNGLFNBQVMsRUFBRSxJQUFJO0VBQ2YsV0FBVyxFQUFFLGlCQUFpQixHQUkvQjtFQU5ELEFBR0UsSUFIRSxDQUdGLEtBQUssQ0FBQTtJQUNILGdCQUFnQixFQUFFLElBQUksR0FDdkI7O0FDTEgsTUFBTSxDQUFBO0VBQ0osZ0JBQWdCLEVBQUUsT0FBTyxHQUMxQiIsImZpbGUiOiJzdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keXtcclxuICBmb250LXNpemU6IDI0cHg7XHJcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmO1xyXG4gIC50ZXN0e1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICB9XHJcbn0iLCIub3RoZXJ7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmMDAwMDtcclxufSJdfQ== */
